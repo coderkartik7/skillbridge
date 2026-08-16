@@ -1,0 +1,27 @@
+# Python (ai-backend)
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+.ipynb_checkpoints/
+
+# Node (app-backend, frontend)
+node_modules/
+dist/
+build/
+.next/
+
+# Env & secrets
+.env
+.env.local
+*.env
+
+# Data (large/raw files shouldn't bloat the repo)
+ai-backend/data/raw/
+ai-backend/data/processed/
+
+# OS/editor noise
+.DS_Store
+.vscode/
+.idea/

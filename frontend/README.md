@@ -1,1 +1,0 @@
-hello everyone this is the project directory of techvajra team

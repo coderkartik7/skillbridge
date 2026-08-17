@@ -1,10 +1,7 @@
 -- ============================================
 -- SKILLBRIDGE - DATABASE SCHEMA
--- Ye SQL file database ki saari tables banayegi
 -- ============================================
 
--- 🔥 SABSE PEHLE: pgvector extension enable karo
--- Yeh vector (embeddings) store karne ke kaam aata hai
 CREATE EXTENSION IF NOT EXISTS vector;
 
 -- ============================================

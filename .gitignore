@@ -17,10 +17,6 @@ build/
 .env.local
 *.env
 
-# Data (large/raw files shouldn't bloat the repo)
-ai-backend/data/raw/
-ai-backend/data/processed/
-
 # OS/editor noise
 .DS_Store
 .vscode/

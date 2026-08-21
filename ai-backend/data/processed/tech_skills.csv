@@ -1,0 +1,153 @@
+skill_id,skill_name,skill_type
+145,python,tech_specific
+146,java,tech_specific
+147,javascript,tech_specific
+148,typescript,tech_specific
+149,c++,tech_specific
+150,c#,tech_specific
+151,sql,tech_specific
+152,html,tech_specific
+153,css,tech_specific
+154,react,tech_specific
+155,node.js,tech_specific
+156,git,tech_specific
+157,docker,tech_specific
+158,kubernetes,tech_specific
+159,aws,tech_specific
+160,azure,tech_specific
+161,gcp,tech_specific
+162,rest api,tech_specific
+163,machine learning,tech_specific
+164,deep learning,tech_specific
+165,data analysis,tech_specific
+166,pandas,tech_specific
+167,numpy,tech_specific
+168,linux,tech_specific
+169,agile,tech_specific
+170,scrum,tech_specific
+171,ci/cd,tech_specific
+172,mongodb,tech_specific
+173,postgresql,tech_specific
+174,mysql,tech_specific
+175,tensorflow,tech_specific
+176,pytorch,tech_specific
+177,nlp,tech_specific
+178,generative ai,tech_specific
+179,large language models,tech_specific
+180,prompt engineering,tech_specific
+181,api development,tech_specific
+182,microservices,tech_specific
+183,data structures,tech_specific
+184,algorithms,tech_specific
+185,object oriented programming,tech_specific
+186,unit testing,tech_specific
+187,debugging,tech_specific
+188,version control,tech_specific
+189,cloud computing,tech_specific
+190,data visualization,tech_specific
+191,tableau,tech_specific
+192,power bi,tech_specific
+193,excel,tech_specific
+194,r programming,tech_specific
+195,scala,tech_specific
+196,go,tech_specific
+197,ruby,tech_specific
+198,php,tech_specific
+199,swift,tech_specific
+200,kotlin,tech_specific
+201,flutter,tech_specific
+202,react native,tech_specific
+203,angular,tech_specific
+204,vue.js,tech_specific
+205,next.js,tech_specific
+206,express.js,tech_specific
+207,django,tech_specific
+208,flask,tech_specific
+209,fastapi,tech_specific
+210,spring boot,tech_specific
+211,graphql,tech_specific
+212,redis,tech_specific
+213,elasticsearch,tech_specific
+214,kafka,tech_specific
+215,rabbitmq,tech_specific
+216,terraform,tech_specific
+217,ansible,tech_specific
+218,jenkins,tech_specific
+219,github actions,tech_specific
+220,devops,tech_specific
+221,system design,tech_specific
+222,cybersecurity,tech_specific
+223,penetration testing,tech_specific
+224,network security,tech_specific
+225,cryptography,tech_specific
+226,ethical hacking,tech_specific
+227,blockchain,tech_specific
+228,solidity,tech_specific
+229,web3,tech_specific
+230,computer vision,tech_specific
+231,opencv,tech_specific
+232,xgboost,tech_specific
+233,scikit-learn,tech_specific
+234,keras,tech_specific
+235,data engineering,tech_specific
+236,etl pipelines,tech_specific
+237,apache spark,tech_specific
+238,hadoop,tech_specific
+239,data warehousing,tech_specific
+240,big data,tech_specific
+241,data mining,tech_specific
+242,statistics,tech_specific
+243,a/b testing,tech_specific
+244,business analytics,tech_specific
+245,product management,tech_specific
+246,ui/ux design,tech_specific
+247,figma,tech_specific
+248,adobe xd,tech_specific
+249,wireframing,tech_specific
+250,user research,tech_specific
+251,mobile app development,tech_specific
+252,ios development,tech_specific
+253,android development,tech_specific
+254,game development,tech_specific
+255,unity,tech_specific
+256,unreal engine,tech_specific
+257,embedded systems,tech_specific
+258,iot,tech_specific
+259,robotics,tech_specific
+260,firmware development,tech_specific
+261,quality assurance,tech_specific
+262,selenium,tech_specific
+263,automation testing,tech_specific
+264,manual testing,tech_specific
+265,jira,tech_specific
+266,confluence,tech_specific
+267,technical writing,tech_specific
+268,api testing,tech_specific
+269,postman,tech_specific
+270,networking fundamentals,tech_specific
+271,dns,tech_specific
+272,load balancing,tech_specific
+273,system administration,tech_specific
+274,windows server,tech_specific
+275,virtualization,tech_specific
+276,shell scripting,tech_specific
+277,bash,tech_specific
+278,powershell,tech_specific
+279,matlab,tech_specific
+280,sap,tech_specific
+281,salesforce,tech_specific
+282,digital marketing,tech_specific
+283,seo,tech_specific
+284,content writing,tech_specific
+285,graphic design,tech_specific
+286,adobe photoshop,tech_specific
+287,video editing,tech_specific
+288,financial modeling,tech_specific
+289,accounting principles,tech_specific
+290,supply chain management,tech_specific
+291,customer service,tech_specific
+292,sales,tech_specific
+293,negotiation,tech_specific
+294,leadership,tech_specific
+295,teamwork,tech_specific
+296,problem solving,tech_specific

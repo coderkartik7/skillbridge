@@ -1,0 +1,49 @@
+skill_id,skill_name,course_name,course_url
+3,writing,"Good with Words: Writing and Editing",https://www.coursera.org/specializations/good-with-words
+7,critical thinking,"Introduction to Logic and Critical Thinking",https://www.coursera.org/specializations/logic-critical-thinking
+5,mathematics,"Mathematical Thinking in Computer Science",https://www.coursera.org/learn/what-is-a-proof
+9,learning strategies,"Learning How to Learn",https://www.coursera.org/learn/learning-how-to-learn
+8,active learning,"Learning How to Learn",https://www.coursera.org/learn/learning-how-to-learn
+23,analytical or scientific software,"Python for Data Science and AI",https://www.coursera.org/learn/python-for-applied-data-science-ai
+17,electronic mail software,"Outlook Essential Training",https://www.linkedin.com/learning/outlook-microsoft-365-essential-training
+22,project management software,"Google Project Management Certificate",https://www.coursera.org/professional-certificates/google-project-management
+14,customer relationship management crm software,"Salesforce Fundamentals",https://trailhead.salesforce.com/
+15,accounting software,"QuickBooks Online Course",https://www.udemy.com/course/quickbooks-online-made-easy/
+20,graphics or photo imaging software,"Adobe Photoshop CC – Essentials Training",https://www.udemy.com/course/adobe-photoshop-cc-essentials-training-course/
+21,human resources software,"Human Resources Foundations",https://www.linkedin.com/learning/human-resources-foundations
+26,spreadsheet software,"Excel Skills for Business Specialization",https://www.coursera.org/specializations/excel
+24,presentation software,"PowerPoint Essential Training",https://www.linkedin.com/learning/powerpoint-for-windows-essential-training
+25,enterprise resource planning erp software,"SAP ERP Fundamentals",https://www.udemy.com/course/sap-erp-fundamentals/
+28,office suite software,"Microsoft Office Specialist Certification Prep",https://www.udemy.com/course/microsoft-office-specialist-certification/
+30,word processing software,"Word Essential Training",https://www.linkedin.com/learning/word-for-windows-essential-training
+27,financial analysis software,"Financial Modeling and Valuation",https://www.coursera.org/specializations/financial-modeling-valuation
+31,web platform development software,"The Complete Web Developer Course",https://www.udemy.com/course/the-complete-web-development-bootcamp/
+32,data base management system software,"SQL for Data Science",https://www.coursera.org/learn/sql-for-data-science
+16,data base reporting software,"Power BI Desktop for Business Intelligence",https://www.udemy.com/course/microsoft-power-bi-up-running-with-power-bi-desktop/
+33,internet browser software,"Digital Literacy Basics",https://www.edx.org/learn/digital-literacy
+34,web page creation and editing software,"HTML, CSS, and Javascript for Web Developers",https://www.coursera.org/learn/html-css-javascript-for-web-developers
+35,calendar and scheduling software,"Google Calendar Mastery",https://www.udemy.com/course/google-calendar-mastery/
+36,business intelligence and data analysis software,"Google Data Analytics Professional Certificate",https://www.coursera.org/professional-certificates/google-data-analytics
+37,video conferencing software,"Zoom Mastery Course",https://www.udemy.com/course/zoom-mastery-course/
+38,video creation and editing software,"Adobe Premiere Pro CC – Video Editing",https://www.udemy.com/course/adobe-premiere-pro-cc-video-editing-course/
+39,operating system software,"Operating Systems and You: Becoming a Power User",https://www.coursera.org/learn/os-power-user
+40,computer aided design cad software,"AutoCAD Certification Course",https://www.udemy.com/course/autocad-2020-complete-course/
+143,computer aided design cad and computer aided manufacturing cam system,"AutoCAD Certification Course",https://www.udemy.com/course/autocad-2020-complete-course/
+42,computer aided manufacturing cam software,"CNC Programming with CAM Software",https://www.udemy.com/course/cnc-programming-fundamentals/
+44,data mining software,"Data Mining with Python",https://www.coursera.org/learn/data-mining-methods
+45,cloud-based data access and sharing software,"Google Drive and Docs Essentials",https://www.udemy.com/course/google-drive-and-docs/
+46,medical software,"Electronic Health Records (EHR) Fundamentals",https://www.udemy.com/course/electronic-health-records/
+48,geographic information system,"GIS, Mapping, and Spatial Analysis",https://www.coursera.org/learn/gis
+49,sales and marketing software,"HubSpot Inbound Marketing Certification",https://academy.hubspot.com/courses/inbound-marketing
+50,instant messaging software,"Slack Essential Training",https://www.linkedin.com/learning/slack-essential-training
+58,development environment software,"Visual Studio Code for Beginners",https://www.udemy.com/course/vs-code-for-beginners/
+60,object oriented data base management software,"Object-Oriented Database Design",https://www.udemy.com/course/object-oriented-databases/
+63,object or component oriented development software,"Object-Oriented Programming in Java",https://www.coursera.org/learn/object-oriented-java
+69,inventory management software,"Inventory Management Fundamentals",https://www.udemy.com/course/inventory-management-fundamentals/
+81,helpdesk or call center software,"Zendesk Support Essentials",https://www.udemy.com/course/zendesk-fundamentals/
+90,program testing software,"Software Testing and QA Fundamentals",https://www.udemy.com/course/software-testing-fundamentals/
+99,point of sale pos software,"Point of Sale (POS) Systems Training",https://www.udemy.com/course/pos-systems-training/
+101,tax preparation software,"TurboTax and Tax Preparation Basics",https://www.udemy.com/course/tax-preparation-basics/
+105,optical character reader ocr or scanning software,"OCR and Document Digitization Basics",https://www.udemy.com/course/ocr-fundamentals/
+131,voice recognition software,"Speech Recognition Systems Fundamentals",https://www.udemy.com/course/speech-recognition-fundamentals/
+133,library software,"Library Information Systems Basics",https://www.udemy.com/course/library-science-basics/

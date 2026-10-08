@@ -1,22 +1,42 @@
-import spacy, pandas as pd
-from spacy.matcher import PhraseMatcher
 import os
+import pandas as pd
+import spacy
+from spacy.matcher import PhraseMatcher
+from spacy.tokens import Span
+from spacy.util import filter_spans
 
-BASE_DIR = os.path.dirname(os.path.abspath(__file__))    
-skills_path = os.path.join(BASE_DIR, "../../data/processed/skills.csv")
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+PROC = os.path.join(BASE_DIR, "../../data/processed")
 
-skills = pd.DataFrame(pd.read_csv(skills_path, usecols=['skill_name']))
-skills = skills['skill_name'].tolist()
+ALLOWED_TYPES = {"tech_specific", "software"}          # Layer 3: tech only
+NOISE = {"science", "leadership", "speaking", "writing", "learning", "management",
+         "mathematics", "judgment", "coordination", "negotiation", "persuasion"}
 
-nlp = spacy.load("en_core_web_sm")
-Matcher = PhraseMatcher(nlp.vocab, attr="LOWER")
-doc_list = [nlp.make_doc(s) for s in skills]
-Matcher.add("SKILL", doc_list)
+skills_df = pd.read_csv(os.path.join(PROC, "skills.csv"))
+skills_df = skills_df[skills_df["skill_type"].isin(ALLOWED_TYPES)]
+skills_df = skills_df.dropna(subset=["skill_name"])
 
-def extract_skills(text:str|None):
-    doc = nlp(text)
-    matches = Matcher(doc)
+# pattern -> canonical name
+canon = {s.lower(): s.lower() for s in skills_df["skill_name"]}
 
-    keyword = set(doc[start:end].text.lower() for match_id, start, end in matches)
-    return keyword
+alias_path = os.path.join(PROC, "aliases.csv")           # Layer 2: aliases
+if os.path.exists(alias_path):
+    al = pd.read_csv(alias_path)
+    al = al.dropna(subset=["alias", "canonical"]) 
+    canon.update({a.lower(): c.lower() for a, c in zip(al["alias"], al["canonical"])})
 
+canon = {k: v for k, v in canon.items() if k not in NOISE}
+
+nlp = spacy.blank("en")                                  # tokenizer only, fast
+matcher = PhraseMatcher(nlp.vocab, attr="LOWER")
+for pattern in canon:
+    matcher.add(pattern, [nlp.make_doc(pattern)])
+
+
+def extract_skills(text: str | None):
+    if not text:
+        return set()
+    doc = nlp.make_doc(text)
+    spans = [Span(doc, s, e, label=mid) for mid, s, e in matcher(doc)]
+    spans = filter_spans(spans)                          # keep longest: "react native" beats "react"
+    return {canon[nlp.vocab.strings[sp.label]] for sp in spans}

@@ -1,0 +1,3337 @@
+{
+  "prereqs": {
+    "a/b testing": [
+      "statistics",
+      "data analysis"
+    ],
+    "apache spark": [
+      "python",
+      "sql",
+      "data engineering"
+    ],
+    "api development": [
+      "python"
+    ],
+    "automation testing": [
+      "manual testing",
+      "git"
+    ],
+    "aws": [
+      "cloud computing"
+    ],
+    "azure": [
+      "cloud computing"
+    ],
+    "bash": [
+      "linux"
+    ],
+    "blockchain": [
+      "cryptography"
+    ],
+    "ci/cd": [
+      "git"
+    ],
+    "cloud computing": [
+      "linux"
+    ],
+    "compliance software": [
+      "cybersecurity"
+    ],
+    "computer vision": [
+      "python",
+      "deep learning"
+    ],
+    "cryptography": [
+      "algorithms"
+    ],
+    "cybersecurity": [
+      "network security",
+      "linux"
+    ],
+    "data analysis": [
+      "python",
+      "sql",
+      "statistics"
+    ],
+    "data engineering": [
+      "python",
+      "sql",
+      "data analysis"
+    ],
+    "data visualization": [
+      "data analysis"
+    ],
+    "deep learning": [
+      "machine learning",
+      "python",
+      "statistics"
+    ],
+    "devops": [
+      "linux",
+      "git",
+      "bash"
+    ],
+    "docker": [
+      "linux",
+      "bash"
+    ],
+    "elasticsearch": [
+      "linux"
+    ],
+    "embedded systems": [
+      "algorithms"
+    ],
+    "etl pipelines": [
+      "sql",
+      "python",
+      "data engineering"
+    ],
+    "financial analysis software": [
+      "statistics",
+      "data analysis"
+    ],
+    "game development": [
+      "c#",
+      "algorithms"
+    ],
+    "gcp": [
+      "cloud computing"
+    ],
+    "generative ai": [
+      "deep learning",
+      "python",
+      "pytorch"
+    ],
+    "graphql": [
+      "api development",
+      "rest api"
+    ],
+    "iot": [
+      "embedded systems",
+      "network security"
+    ],
+    "kubernetes": [
+      "docker",
+      "linux"
+    ],
+    "large language models": [
+      "python",
+      "machine learning",
+      "deep learning",
+      "nlp"
+    ],
+    "machine learning": [
+      "python",
+      "statistics",
+      "data analysis"
+    ],
+    "network security": [
+      "cybersecurity"
+    ],
+    "nlp": [
+      "python",
+      "machine learning",
+      "deep learning"
+    ],
+    "opencv": [
+      "python",
+      "computer vision"
+    ],
+    "power bi": [
+      "data analysis",
+      "data visualization",
+      "sql"
+    ],
+    "product management": [
+      "leadership",
+      "data analysis"
+    ],
+    "prompt engineering": [
+      "large language models",
+      "generative ai"
+    ],
+    "pytorch": [
+      "python",
+      "deep learning"
+    ],
+    "react": [
+      "javascript"
+    ],
+    "rest api": [
+      "api development"
+    ],
+    "scikit-learn": [
+      "python",
+      "statistics",
+      "machine learning"
+    ],
+    "solidity": [
+      "blockchain",
+      "web3"
+    ],
+    "system design": [
+      "cloud computing",
+      "rest api",
+      "sql"
+    ],
+    "tableau": [
+      "data visualization",
+      "sql"
+    ],
+    "technical writing": [
+      "git"
+    ],
+    "tensorflow": [
+      "python",
+      "machine learning",
+      "deep learning"
+    ],
+    "terraform": [
+      "cloud computing",
+      "devops"
+    ],
+    "unity": [
+      "c#"
+    ],
+    "unreal engine": [
+      "algorithms"
+    ],
+    "web3": [
+      "blockchain",
+      "cryptography",
+      "javascript"
+    ]
+  },
+  "topics": {
+    "a/b testing": [
+      {
+        "name": "Hypothesis Formulation",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Randomization and Selection",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Sample Size Calculation",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Type I and II Errors",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Significance Testing",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "A/A Testing",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Multi-arm Bandits",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      }
+    ],
+    "algorithms": [
+      {
+        "name": "Asymptotic Analysis",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Sorting and Searching",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Recursion",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Divide and Conquer",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Dynamic Programming",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Greedy Algorithms",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Graph Algorithms",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      }
+    ],
+    "apache spark": [
+      {
+        "name": "Spark Architecture",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Resilient Distributed Datasets",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "DataFrames",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Spark SQL",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Structured Streaming",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Performance Tuning",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      }
+    ],
+    "api development": [
+      {
+        "name": "HTTP Basics",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "REST Architecture",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Routing and Controllers",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Request and Response",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Authentication",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Error Handling",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "API Documentation",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      }
+    ],
+    "automation testing": [
+      {
+        "name": "Test Strategy",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Unit Testing",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "UI Automation",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Page Object Model",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "API Testing",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "CI/CD Integration",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Test Reporting",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      }
+    ],
+    "aws": [
+      {
+        "name": "Identity and Access Management",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Virtual Private Cloud",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "EC2 Instances",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "S3 Storage",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Relational Database Service",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "AWS Lambda",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "CloudWatch",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      }
+    ],
+    "azure": [
+      {
+        "name": "Active Directory",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Virtual Networks",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Virtual Machines",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Blob Storage",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Azure SQL",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "App Services",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Azure Monitor",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      }
+    ],
+    "bash": [
+      {
+        "name": "Terminal Navigation",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "File Operations",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Pipes and Redirection",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Shell Variables",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Control Flow",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Shell Functions",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Automation Scripting",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      }
+    ],
+    "blockchain": [
+      {
+        "name": "Distributed Ledgers",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Cryptographic Hash Functions",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Consensus Mechanisms",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Smart Contracts",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Decentralized Applications",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Mining and Staking",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Public vs Private Blockchains",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Scalability Solutions",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      }
+    ],
+    "c#": [
+      {
+        "name": "Syntax and Basic Types",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Control Flow and Loops",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Object-Oriented Programming",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Generics and Collections",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Language Integrated Query (LINQ)",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Exception Handling",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Asynchronous Programming",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Memory Management and Garbage Collection",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": ".NET Ecosystem",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      }
+    ],
+    "ci/cd": [
+      {
+        "name": "Version Control Integration",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Build Automation",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Automated Testing Integration",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Artifact Management",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Deployment Pipelines",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Continuous Monitoring",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Infrastructure as Code Integration",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Rollback Strategies",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      }
+    ],
+    "cloud computing": [
+      {
+        "name": "Virtualization Concepts",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "IaaS, PaaS, and SaaS Models",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Cloud Storage Solutions",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Virtual Networking",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Identity and Access Management",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Load Balancing and Auto-scaling",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Serverless Computing",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Multi-cloud Architecture",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      }
+    ],
+    "compliance software": [
+      {
+        "name": "Regulatory Frameworks",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Risk Assessment Standards",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Policy Management",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Audit Trail Architecture",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Data Privacy Laws",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Access Control Matrices",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Incident Reporting Systems",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Automated Compliance Checks",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      }
+    ],
+    "computer vision": [
+      {
+        "name": "Image Processing Basics",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Edge and Feature Detection",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Image Segmentation",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Object Detection Protocols",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Image Classification",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Convolutional Neural Networks",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Optical Flow and Tracking",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Generative Vision Models",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      }
+    ],
+    "cryptography": [
+      {
+        "name": "Symmetric Key Encryption",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Asymmetric Key Encryption",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Cryptographic Hashing",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Digital Signatures",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Key Exchange Protocols",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Public Key Infrastructure",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Cryptanalysis Basics",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Post-Quantum Cryptography",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      }
+    ],
+    "cybersecurity": [
+      {
+        "name": "Information Security Fundamentals",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Threat Landscape Analysis",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Network Defensive Tools",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Host-Based Security",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Identity and Access Management",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Vulnerability Assessment",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Incident Response Planning",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Penetration Testing Basics",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      }
+    ],
+    "data analysis": [
+      {
+        "name": "Data Cleaning",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Exploratory Data Analysis",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Statistical Inference",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Data Wrangling",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Hypothesis Testing",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Data Visualization",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Reporting and Dashboarding",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      }
+    ],
+    "data engineering": [
+      {
+        "name": "Data Modeling",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "ETL Pipeline Design",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Data Warehousing",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Distributed Computing",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Stream Processing",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Data Lake Architecture",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Workflow Orchestration",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Query Optimization",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      }
+    ],
+    "data visualization": [
+      {
+        "name": "Visual Encoding",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Chart Selection",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Dashboard Design",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Color Theory and Typography",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Interactive Visualization",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Data Storytelling",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Geospatial Mapping",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Performance Optimization",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      }
+    ],
+    "deep learning": [
+      {
+        "name": "Perceptrons & Feedforward Networks",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Backpropagation",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Activation Functions",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Optimization and Regularization",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Convolutional Neural Networks",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Recurrent Neural Networks",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Transformers and Attention",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Generative Adversarial Networks",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      }
+    ],
+    "devops": [
+      {
+        "name": "Continuous Integration",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Continuous Delivery",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Infrastructure as Code",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Configuration Management",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Container Orchestration",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Monitoring and Alerting",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Log Aggregation",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Site Reliability Engineering",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      }
+    ],
+    "docker": [
+      {
+        "name": "Containerization Concepts",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Docker Architecture",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Writing Dockerfiles",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Image Management",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Container Storage & Volumes",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Docker Networking",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Docker Compose",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Multi-stage Builds",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Docker Security",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      }
+    ],
+    "elasticsearch": [
+      {
+        "name": "Inverted Index Concepts",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Document Indexing & CRUD",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Mapping and Analyzers",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Search Queries & DSL",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Aggregations",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Cluster Architecture",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Sharding and Replication",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Performance Tuning",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      }
+    ],
+    "embedded systems": [
+      {
+        "name": "Microcontroller Architectures",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Interrupts & Timers",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "General Purpose Input/Output",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Serial Protocols",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Analog-to-Digital Conversion",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Real-Time Operating Systems",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Power Management",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Hardware Debugging",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      }
+    ],
+    "etl pipelines": [
+      {
+        "name": "Data Extraction",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Data Transformation",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Data Loading",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Batch Processing",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Stream Processing",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Data Validation",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Error Handling",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Pipeline Orchestration",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Monitoring & Alerting",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      }
+    ],
+    "financial analysis software": [
+      {
+        "name": "Financial Data Sources",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Time Series Analysis",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Portfolio Optimization",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Risk Modeling",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Valuation Techniques",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Algorithmic Trading",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Reporting Dashboards",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Regulatory Compliance",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      }
+    ],
+    "game development": [
+      {
+        "name": "Game Loop & Rendering",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "2D/3D Math",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Input Management",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Physics & Collision",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Audio Integration",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Asset Pipelines",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "AI & Pathfinding",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Optimization & Profiling",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      }
+    ],
+    "gcp": [
+      {
+        "name": "IAM & Security",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Compute Engine",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Google Kubernetes Engine",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Cloud Storage",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "VPC Networking",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "BigQuery & Data Products",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Cloud Monitoring",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Deployment Manager",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      }
+    ],
+    "generative ai": [
+      {
+        "name": "Autoencoders",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Generative Adversarial Networks",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Variational Autoencoders",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Transformer Architectures",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Diffusion Models",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Reinforcement Learning from Human Feedback",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Fine-Tuning Techniques",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Evaluation Metrics",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      }
+    ],
+    "git": [
+      {
+        "name": "Version Control Basics",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Commits & History",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Branching & Merging",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Resolving Conflicts",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Remote Repositories",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Stashing & Amending",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Rebasing",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Pull Requests",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      }
+    ],
+    "graphql": [
+      {
+        "name": "Schema Definition Language",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Queries & Mutations",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Resolvers",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Type System",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Fragments & Variables",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Subscriptions",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Error Handling",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "N+1 Query Problem",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Caching & Security",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      }
+    ],
+    "iot": [
+      {
+        "name": "Sensors & Actuators",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Microcontrollers",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Communication Protocols",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Edge Computing",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "IoT Cloud Platforms",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Data Aggregation",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "IoT Security",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Firmware Updates",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      }
+    ],
+    "javascript": [
+      {
+        "name": "variables and types",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "control flow",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "functions",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "objects and arrays",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "dom manipulation",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "es6 features",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "asynchronous javascript",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "promises and async/await",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "apis and fetch",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      }
+    ],
+    "kubernetes": [
+      {
+        "name": "container basics",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "architecture and components",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "pods and deployments",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "services and networking",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "configmaps and secrets",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "persistent storage",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "ingress controllers",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "helm charts",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "monitoring and logging",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      }
+    ],
+    "large language models": [
+      {
+        "name": "transformer architecture",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "pre-training and fine-tuning",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "tokenization",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "attention mechanisms",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "prompt engineering",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "rlhf",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "evaluation metrics",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "parameter-efficient fine-tuning",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "vector databases",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      }
+    ],
+    "leadership": [
+      {
+        "name": "communication styles",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "emotional intelligence",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "conflict resolution",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "strategic thinking",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "delegation and empowerment",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "team building",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "decision making",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "coaching and mentoring",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "change management",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      }
+    ],
+    "linux": [
+      {
+        "name": "directory structure",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "basic commands",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "file permissions",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "text processing",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "bash scripting",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "package management",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "process monitoring",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "network configuration",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "system administration",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      }
+    ],
+    "machine learning": [
+      {
+        "name": "data preprocessing",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "supervised learning",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "unsupervised learning",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "model evaluation",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "feature engineering",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "linear models",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "tree-based models",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "ensemble methods",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "neural networks introduction",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      }
+    ],
+    "manual testing": [
+      {
+        "name": "software development lifecycle",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "test planning",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "test case design",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "black box testing",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "defect lifecycle",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "regression testing",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "exploratory testing",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "test reporting",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "user acceptance testing",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      }
+    ],
+    "network security": [
+      {
+        "name": "osi model",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "firewalls and vpns",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "intrusion detection systems",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "cryptographic protocols",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "secure network design",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "wireless security",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "penetration testing",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "network monitoring",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "incident response",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      }
+    ],
+    "nlp": [
+      {
+        "name": "Text Preprocessing",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Tokenization",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "POS Tagging & NER",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Word Embeddings",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "RNNs & LSTMs",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Transformers",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "BERT & Fine-tuning",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Evaluation Metrics",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      }
+    ],
+    "opencv": [
+      {
+        "name": "Image Basics",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Image Transformations",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Filtering & Thresholding",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Edge & Contour Detection",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Feature Detection",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Object Tracking",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Camera Calibration",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Deep Learning Integration",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      }
+    ],
+    "power bi": [
+      {
+        "name": "Data Loading",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Data Modeling",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "DAX Basics",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Data Visualizations",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Power Query",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Advanced DAX",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Power BI Service",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Row-Level Security",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      }
+    ],
+    "product management": [
+      {
+        "name": "Product Discovery",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Market Research",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Roadmapping",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "PRD Writing",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Agile & Scrum",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "A/B Testing & Metrics",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "UX Principles",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Product Launch",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      }
+    ],
+    "prompt engineering": [
+      {
+        "name": "LLM Basics",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Zero-shot Prompting",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Few-shot Prompting",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Chain of Thought",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "System Prompts",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Prompt Injection Defense",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Retrieval-Augmented Generation",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Evaluation & Fine-tuning",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      }
+    ],
+    "python": [
+      {
+        "name": "Syntax & Variables",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Control Flow",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Functions",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Data Structures",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "OOP Concepts",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "File I/O",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Error Handling",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Package Management",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      }
+    ],
+    "pytorch": [
+      {
+        "name": "Tensors",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Autograd",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Neural Networks (nn.Module)",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "DataLoaders",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Model Training Loop",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "CNNs in PyTorch",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "RNNs & Transformers",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Model Saving & Export",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      }
+    ],
+    "react": [
+      {
+        "name": "JSX Syntax",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Components & Props",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "State & useState",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Effects & useEffect",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Event Handling",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "React Router",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Context API & State Management",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Custom Hooks",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      }
+    ],
+    "rest api": [
+      {
+        "name": "HTTP Methods",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Status Codes",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "URI Design",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "JSON & XML Serialization",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Authentication & JWT",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Rate Limiting & Throttling",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "API Versioning",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "OpenAPI & Swagger Documentation",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      }
+    ],
+    "scikit-learn": [
+      {
+        "name": "Data Preprocessing & Scaling",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Supervised Learning: Regression",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Supervised Learning: Classification",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Unsupervised Learning: Clustering",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Dimensionality Reduction",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Model Evaluation Metrics",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Cross-Validation & Grid Search",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Scikit-Learn Pipelines",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      }
+    ],
+    "solidity": [
+      {
+        "name": "Smart Contract Basics",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Solidity Types & Variables",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Functions & Modifiers",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Control Structures & Error Handling",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Inheritance & Interfaces",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Events & Logging",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Gas Optimization",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Solidity Security Best Practices",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      }
+    ],
+    "sql": [
+      {
+        "name": "Relational Database Concepts",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Basic Queries & Filtering",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Joins and Unions",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Aggregations & Grouping",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Subqueries & CTEs",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Data Modification (DML)",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Table Creation & Constraints (DDL)",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Indexes & Query Optimization",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Window Functions",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      }
+    ],
+    "statistics": [
+      {
+        "name": "Descriptive Statistics",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Probability Theory Basics",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Probability Distributions",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Central Limit Theorem",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Confidence Intervals",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Hypothesis Testing",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Correlation and Linear Regression",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "ANOVA & Non-parametric Tests",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      }
+    ],
+    "system design": [
+      {
+        "name": "Architectural Patterns",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Scalability & Load Balancing",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Caching Strategies",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Database Partitioning & Sharding",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Message Queues & Event-Driven Architecture",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Microservices Design",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Consistent Hashing",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Disaster Recovery & High Availability",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      }
+    ],
+    "tableau": [
+      {
+        "name": "Tableau Interface & Connecting Data",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Data Prepping & Blending",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Basic Visualizations & Charts",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Calculated Fields & LOD Expressions",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Filters, Parameters & Sets",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Interactive Dashboards & Stories",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Tableau Mapping & Geocoding",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Publishing & Sharing Dashboards",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      }
+    ],
+    "technical writing": [
+      {
+        "name": "Audience Analysis & Persona",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Document Structuring & Outlining",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Style, Tone, and Clarity Guidelines",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Markdown & Static Site Generators",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "API Documentation (Reference & Guides)",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Writing Tutorials & Quickstarts",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Review & Editing Workflows",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Docs-as-Code & Git Workflows",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      }
+    ],
+    "tensorflow": [
+      {
+        "name": "Tensors & Basics",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Keras Sequential API",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Convolutional Neural Networks",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Recurrent Neural Networks",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Custom Layers & Models",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Data Pipelines with tf.data",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Model Saving & Deployment",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "TensorFlow Lite",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      }
+    ],
+    "terraform": [
+      {
+        "name": "Infrastructure as Code Basics",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Providers & Resources",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Variables & Outputs",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "State Management",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Modules",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Functions & Conditionals",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Workspaces & Environments",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Terraform Cloud",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      }
+    ],
+    "ui/ux design": [
+      {
+        "name": "User Research",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Information Architecture",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Wireframing",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Prototyping",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Usability Testing",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Visual Design",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Interaction Design",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Design Systems",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      }
+    ],
+    "unity": [
+      {
+        "name": "Editor Interface Basics",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "GameObjects & Components",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "C# Scripting",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Physics & Colliders",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Prefabs & Instantiation",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "UI Design",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Animation",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Audio & Lighting",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Build & Deployment",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      }
+    ],
+    "unreal engine": [
+      {
+        "name": "Editor Navigation",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Blueprints",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Materials & Shaders",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Lighting & Rendering",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Physics & Collisions",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Niagara Effects",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Audio System",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "C++ Integration",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Packaging & Building",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      }
+    ],
+    "web3": [
+      {
+        "name": "Blockchain Fundamentals",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Smart Contracts",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Decentralized Storage",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Ethers.js & Web3.js",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "DApp Frontend Integration",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Wallets & Providers",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "Token Standards",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      },
+      {
+        "name": "DAO Governance",
+        "free": null,
+        "paid": null,
+        "fallback": true
+      }
+    ]
+  }
+}

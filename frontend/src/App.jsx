@@ -1,19 +1,21 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
-import ResumeInput from './pages/ResumeInput';
-import MatchResults from './pages/MatchResults';
-import GapAnalysis from './pages/GapAnalysis';
+import Layout from './components/Layout';
+import Upload from './pages/Upload';
+import CareerMap from './pages/CareerMap';
+import Roadmap from './pages/Roadmap';
 
 export default function App() {
   return (
     <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<ResumeInput />} />
-        <Route path="/matches" element={<MatchResults />} />
-        <Route path="/gap" element={<GapAnalysis />} />
-        {/* Redirect unknown routes to home */}
-        <Route path="*" element={<Navigate to="/" replace />} />
-      </Routes>
+      <Layout>
+        <Routes>
+          <Route path="/" element={<Upload />} />
+          <Route path="/map" element={<CareerMap />} />
+          <Route path="/roadmap" element={<Roadmap />} />
+          <Route path="*" element={<Navigate to="/" replace />} />
+        </Routes>
+      </Layout>
     </BrowserRouter>
   );
 }

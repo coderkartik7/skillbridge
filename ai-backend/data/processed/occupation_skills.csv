@@ -40760,3 +40760,212 @@ occupation_code,skill_id,skill_name,skill_type,relevance,is_trending
 53-7121.00,28,office suite software,software,5.0,True
 53-7121.00,25,enterprise resource planning erp software,software,5.0,True
 53-7121.00,55,materials requirements planning logistics and supply chain software,software,5.0,True
+AI-0001.00,145,python,tech_specific,6.0,True
+AI-0001.00,178,generative ai,tech_specific,6.0,True
+AI-0001.00,179,large language models,tech_specific,5.0,True
+AI-0001.00,180,prompt engineering,tech_specific,5.0,True
+AI-0001.00,177,nlp,tech_specific,5.0,True
+AI-0002.00,145,python,tech_specific,6.0,True
+AI-0002.00,179,large language models,tech_specific,6.0,True
+AI-0002.00,180,prompt engineering,tech_specific,5.0,True
+AI-0002.00,178,generative ai,tech_specific,5.0,True
+AI-0002.00,181,api development,tech_specific,5.0,True
+AI-0003.00,163,machine learning,tech_specific,6.0,True
+AI-0003.00,157,docker,tech_specific,6.0,True
+AI-0003.00,158,kubernetes,tech_specific,5.0,True
+AI-0003.00,171,ci/cd,tech_specific,5.0,True
+AI-0003.00,145,python,tech_specific,5.0,True
+AI-0003.00,159,aws,tech_specific,5.0,True
+AI-0004.00,179,large language models,tech_specific,6.0,True
+AI-0004.00,157,docker,tech_specific,6.0,True
+AI-0004.00,158,kubernetes,tech_specific,5.0,True
+AI-0004.00,145,python,tech_specific,5.0,True
+AI-0004.00,189,cloud computing,tech_specific,5.0,True
+AI-0005.00,180,prompt engineering,tech_specific,6.0,True
+AI-0005.00,179,large language models,tech_specific,6.0,True
+AI-0005.00,178,generative ai,tech_specific,5.0,True
+AI-0005.00,177,nlp,tech_specific,5.0,True
+AI-0006.00,145,python,tech_specific,6.0,True
+AI-0006.00,164,deep learning,tech_specific,6.0,True
+AI-0006.00,176,pytorch,tech_specific,5.0,True
+AI-0006.00,175,tensorflow,tech_specific,5.0,True
+AI-0006.00,163,machine learning,tech_specific,5.0,True
+AI-0007.00,145,python,tech_specific,6.0,True
+AI-0007.00,163,machine learning,tech_specific,6.0,True
+AI-0007.00,164,deep learning,tech_specific,5.0,True
+AI-0007.00,233,scikit-learn,tech_specific,5.0,True
+AI-0007.00,151,sql,tech_specific,5.0,True
+AI-0008.00,145,python,tech_specific,6.0,True
+AI-0008.00,178,generative ai,tech_specific,6.0,True
+AI-0008.00,177,nlp,tech_specific,5.0,True
+AI-0008.00,165,data analysis,tech_specific,5.0,True
+AI-0008.00,163,machine learning,tech_specific,5.0,True
+AI-0009.00,177,nlp,tech_specific,6.0,True
+AI-0009.00,145,python,tech_specific,6.0,True
+AI-0009.00,179,large language models,tech_specific,5.0,True
+AI-0009.00,181,api development,tech_specific,5.0,True
+AI-0010.00,245,product management,tech_specific,6.0,True
+AI-0010.00,163,machine learning,tech_specific,6.0,True
+AI-0010.00,178,generative ai,tech_specific,5.0,True
+AI-0010.00,294,leadership,tech_specific,5.0,True
+AI-0011.00,145,python,tech_specific,6.0,True
+AI-0011.00,230,computer vision,tech_specific,6.0,True
+AI-0011.00,231,opencv,tech_specific,5.0,True
+AI-0011.00,164,deep learning,tech_specific,5.0,True
+AI-0011.00,176,pytorch,tech_specific,5.0,True
+AI-0012.00,145,python,tech_specific,6.0,True
+AI-0012.00,177,nlp,tech_specific,6.0,True
+AI-0012.00,163,machine learning,tech_specific,5.0,True
+AI-0012.00,164,deep learning,tech_specific,5.0,True
+AI-0013.00,189,cloud computing,tech_specific,6.0,True
+AI-0013.00,158,kubernetes,tech_specific,6.0,True
+AI-0013.00,157,docker,tech_specific,5.0,True
+AI-0013.00,159,aws,tech_specific,5.0,True
+AI-0013.00,221,system design,tech_specific,5.0,True
+AI-0014.00,179,large language models,tech_specific,6.0,True
+AI-0014.00,145,python,tech_specific,6.0,True
+AI-0014.00,177,nlp,tech_specific,5.0,True
+AI-0014.00,181,api development,tech_specific,5.0,True
+AI-0015.00,163,machine learning,tech_specific,6.0,True
+AI-0015.00,145,python,tech_specific,6.0,True
+AI-0015.00,242,statistics,tech_specific,5.0,True
+AI-0015.00,177,nlp,tech_specific,5.0,True
+AI-0016.00,145,python,tech_specific,6.0,True
+AI-0016.00,154,react,tech_specific,6.0,True
+AI-0016.00,147,javascript,tech_specific,5.0,True
+AI-0016.00,181,api development,tech_specific,5.0,True
+AI-0016.00,178,generative ai,tech_specific,5.0,True
+AI-0017.00,145,python,tech_specific,6.0,True
+AI-0017.00,151,sql,tech_specific,6.0,True
+AI-0017.00,236,etl pipelines,tech_specific,5.0,True
+AI-0017.00,237,apache spark,tech_specific,5.0,True
+AI-0017.00,235,data engineering,tech_specific,5.0,True
+AI-0018.00,159,aws,tech_specific,6.0,True
+AI-0018.00,160,azure,tech_specific,6.0,True
+AI-0018.00,161,gcp,tech_specific,5.0,True
+AI-0018.00,163,machine learning,tech_specific,5.0,True
+AI-0018.00,189,cloud computing,tech_specific,5.0,True
+AI-0019.00,163,machine learning,tech_specific,6.0,True
+AI-0019.00,242,statistics,tech_specific,6.0,True
+AI-0019.00,145,python,tech_specific,5.0,True
+AI-0020.00,145,python,tech_specific,6.0,True
+AI-0020.00,178,generative ai,tech_specific,6.0,True
+AI-0020.00,163,machine learning,tech_specific,5.0,True
+AI-0020.00,235,data engineering,tech_specific,5.0,True
+AI-0021.00,220,devops,tech_specific,6.0,True
+AI-0021.00,222,cybersecurity,tech_specific,6.0,True
+AI-0021.00,171,ci/cd,tech_specific,5.0,True
+AI-0021.00,157,docker,tech_specific,5.0,True
+AI-0021.00,224,network security,tech_specific,5.0,True
+AI-0022.00,158,kubernetes,tech_specific,6.0,True
+AI-0022.00,157,docker,tech_specific,6.0,True
+AI-0022.00,216,terraform,tech_specific,5.0,True
+AI-0022.00,171,ci/cd,tech_specific,5.0,True
+AI-0022.00,220,devops,tech_specific,5.0,True
+AI-0023.00,168,linux,tech_specific,6.0,True
+AI-0023.00,158,kubernetes,tech_specific,6.0,True
+AI-0023.00,221,system design,tech_specific,5.0,True
+AI-0023.00,220,devops,tech_specific,5.0,True
+AI-0023.00,277,bash,tech_specific,5.0,True
+AI-0024.00,159,aws,tech_specific,6.0,True
+AI-0024.00,160,azure,tech_specific,6.0,True
+AI-0024.00,161,gcp,tech_specific,5.0,True
+AI-0024.00,221,system design,tech_specific,5.0,True
+AI-0024.00,189,cloud computing,tech_specific,5.0,True
+AI-0025.00,158,kubernetes,tech_specific,6.0,True
+AI-0025.00,157,docker,tech_specific,6.0,True
+AI-0025.00,220,devops,tech_specific,5.0,True
+AI-0025.00,168,linux,tech_specific,5.0,True
+AI-0026.00,227,blockchain,tech_specific,6.0,True
+AI-0026.00,228,solidity,tech_specific,6.0,True
+AI-0026.00,229,web3,tech_specific,5.0,True
+AI-0026.00,147,javascript,tech_specific,5.0,True
+AI-0027.00,229,web3,tech_specific,6.0,True
+AI-0027.00,227,blockchain,tech_specific,6.0,True
+AI-0027.00,228,solidity,tech_specific,5.0,True
+AI-0027.00,147,javascript,tech_specific,5.0,True
+AI-0028.00,151,sql,tech_specific,6.0,True
+AI-0028.00,190,data visualization,tech_specific,6.0,True
+AI-0028.00,191,tableau,tech_specific,5.0,True
+AI-0028.00,192,power bi,tech_specific,5.0,True
+AI-0028.00,145,python,tech_specific,5.0,True
+AI-0029.00,151,sql,tech_specific,6.0,True
+AI-0029.00,235,data engineering,tech_specific,6.0,True
+AI-0029.00,165,data analysis,tech_specific,5.0,True
+AI-0029.00,145,python,tech_specific,5.0,True
+AI-0030.00,243,a/b testing,tech_specific,6.0,True
+AI-0030.00,165,data analysis,tech_specific,6.0,True
+AI-0030.00,147,javascript,tech_specific,5.0,True
+AI-0030.00,151,sql,tech_specific,5.0,True
+AI-0031.00,171,ci/cd,tech_specific,6.0,True
+AI-0031.00,156,git,tech_specific,6.0,True
+AI-0031.00,220,devops,tech_specific,5.0,True
+AI-0031.00,145,python,tech_specific,5.0,True
+AI-0032.00,163,machine learning,tech_specific,6.0,True
+AI-0032.00,257,embedded systems,tech_specific,6.0,True
+AI-0032.00,145,python,tech_specific,5.0,True
+AI-0032.00,258,iot,tech_specific,5.0,True
+AI-0033.00,145,python,tech_specific,6.0,True
+AI-0033.00,184,algorithms,tech_specific,6.0,True
+AI-0033.00,242,statistics,tech_specific,5.0,True
+AI-0034.00,255,unity,tech_specific,6.0,True
+AI-0034.00,256,unreal engine,tech_specific,6.0,True
+AI-0034.00,254,game development,tech_specific,5.0,True
+AI-0034.00,150,c#,tech_specific,5.0,True
+AI-0035.00,245,product management,tech_specific,6.0,True
+AI-0035.00,163,machine learning,tech_specific,6.0,True
+AI-0035.00,221,system design,tech_specific,5.0,True
+AI-0036.00,163,machine learning,tech_specific,6.0,True
+AI-0036.00,245,product management,tech_specific,6.0,True
+AI-0036.00,294,leadership,tech_specific,5.0,True
+AI-0037.00,158,kubernetes,tech_specific,6.0,True
+AI-0037.00,157,docker,tech_specific,6.0,True
+AI-0037.00,163,machine learning,tech_specific,5.0,True
+AI-0037.00,145,python,tech_specific,5.0,True
+AI-0037.00,220,devops,tech_specific,5.0,True
+AI-0038.00,222,cybersecurity,tech_specific,6.0,True
+AI-0038.00,225,cryptography,tech_specific,6.0,True
+AI-0038.00,151,sql,tech_specific,5.0,True
+AI-0038.00,145,python,tech_specific,5.0,True
+AI-0039.00,222,cybersecurity,tech_specific,6.0,True
+AI-0039.00,224,network security,tech_specific,6.0,True
+AI-0039.00,145,python,tech_specific,5.0,True
+AI-0039.00,163,machine learning,tech_specific,5.0,True
+AI-0040.00,181,api development,tech_specific,6.0,True
+AI-0040.00,162,rest api,tech_specific,6.0,True
+AI-0040.00,211,graphql,tech_specific,5.0,True
+AI-0040.00,147,javascript,tech_specific,5.0,True
+AI-0041.00,245,product management,tech_specific,6.0,True
+AI-0041.00,246,ui/ux design,tech_specific,6.0,True
+AI-0042.00,177,nlp,tech_specific,6.0,True
+AI-0042.00,294,leadership,tech_specific,6.0,True
+AI-0042.00,165,data analysis,tech_specific,5.0,True
+AI-0043.00,177,nlp,tech_specific,6.0,True
+AI-0043.00,145,python,tech_specific,6.0,True
+AI-0043.00,163,machine learning,tech_specific,5.0,True
+AI-0044.00,163,machine learning,tech_specific,6.0,True
+AI-0044.00,145,python,tech_specific,6.0,True
+AI-0044.00,151,sql,tech_specific,5.0,True
+AI-0044.00,184,algorithms,tech_specific,5.0,True
+AI-0045.00,184,algorithms,tech_specific,6.0,True
+AI-0045.00,145,python,tech_specific,6.0,True
+AI-0045.00,213,elasticsearch,tech_specific,5.0,True
+AI-0045.00,163,machine learning,tech_specific,5.0,True
+AI-0046.00,151,sql,tech_specific,6.0,True
+AI-0046.00,235,data engineering,tech_specific,6.0,True
+AI-0046.00,85,compliance software,tech_specific,5.0,True
+AI-0047.00,267,technical writing,tech_specific,6.0,True
+AI-0047.00,163,machine learning,tech_specific,6.0,True
+AI-0047.00,145,python,tech_specific,5.0,True
+AI-0048.00,263,automation testing,tech_specific,6.0,True
+AI-0048.00,145,python,tech_specific,6.0,True
+AI-0048.00,163,machine learning,tech_specific,5.0,True
+AI-0048.00,264,manual testing,tech_specific,5.0,True
+AI-0049.00,159,aws,tech_specific,6.0,True
+AI-0049.00,160,azure,tech_specific,6.0,True
+AI-0049.00,189,cloud computing,tech_specific,5.0,True
+AI-0049.00,27,financial analysis software,tech_specific,5.0,True
+AI-0050.00,258,iot,tech_specific,6.0,True
+AI-0050.00,145,python,tech_specific,6.0,True
+AI-0050.00,190,data visualization,tech_specific,5.0,True
+AI-0050.00,257,embedded systems,tech_specific,5.0,True

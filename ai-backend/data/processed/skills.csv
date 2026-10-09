@@ -295,3 +295,2371 @@ skill_id,skill_name,skill_type
 294,leadership,tech_specific
 295,teamwork,tech_specific
 296,problem solving,tech_specific
+297,.htaccess,tech_specific
+298,.net,tech_specific
+299,.net 3.5,tech_specific
+300,.net 4.0,tech_specific
+301,.net 4.5,tech_specific
+302,.net 5,tech_specific
+303,.net 6.0,tech_specific
+304,.net assembly,tech_specific
+305,.net core,tech_specific
+306,64 bit,tech_specific
+307,abap,tech_specific
+308,abstract class,tech_specific
+309,abstract syntax tree,tech_specific
+310,access token,tech_specific
+311,accessibility,tech_specific
+312,accordion,tech_specific
+313,action,tech_specific
+314,actionbarsherlock,tech_specific
+315,actionlistener,tech_specific
+316,actions on google,tech_specific
+317,actionscript,tech_specific
+318,actionscript 3,tech_specific
+319,active directory,tech_specific
+320,activeadmin,tech_specific
+321,activemq classic,tech_specific
+322,activerecord,tech_specific
+323,activex,tech_specific
+324,acumatica,tech_specific
+325,adapter,tech_specific
+326,adb,tech_specific
+327,addeventlistener,tech_specific
+328,addition,tech_specific
+329,admin,tech_specific
+330,admob,tech_specific
+331,ado.net,tech_specific
+332,adobe,tech_specific
+333,ads,tech_specific
+334,advanced custom fields,tech_specific
+335,advice,tech_specific
+336,aem,tech_specific
+337,aes,tech_specific
+338,afnetworking,tech_specific
+339,ag grid,tech_specific
+340,agentic ai,tech_specific
+341,aggregate,tech_specific
+342,aggregate functions,tech_specific
+343,aggregation,tech_specific
+344,aggregation framework,tech_specific
+345,ai agents,tech_specific
+346,air,tech_specific
+347,airflow,tech_specific
+348,ajax,tech_specific
+349,akka,tech_specific
+350,alamofire,tech_specific
+351,alarmmanager,tech_specific
+352,alert,tech_specific
+353,alexa skills kit,tech_specific
+354,alfresco,tech_specific
+355,algorithm,tech_specific
+356,alias,tech_specific
+357,alignment,tech_specific
+358,amazon athena,tech_specific
+359,amazon cloudfront,tech_specific
+360,amazon cloudwatch,tech_specific
+361,amazon cognito,tech_specific
+362,amazon dynamodb,tech_specific
+363,amazon ec2,tech_specific
+364,amazon ecs,tech_specific
+365,amazon eks,tech_specific
+366,amazon elastic beanstalk,tech_specific
+367,amazon emr,tech_specific
+368,amazon iam,tech_specific
+369,amazon rds,tech_specific
+370,amazon redshift,tech_specific
+371,amazon s3,tech_specific
+372,amazon sagemaker,tech_specific
+373,amazon sns,tech_specific
+374,amazon sqs,tech_specific
+375,amazon web services,tech_specific
+376,anaconda,tech_specific
+377,analytics,tech_specific
+378,anchor,tech_specific
+379,android,tech_specific
+380,android actionbar,tech_specific
+381,android activity,tech_specific
+382,android adapter,tech_specific
+383,android alertdialog,tech_specific
+384,android animation,tech_specific
+385,android arrayadapter,tech_specific
+386,android asynctask,tech_specific
+387,android camera,tech_specific
+388,android canvas,tech_specific
+389,android constraintlayout,tech_specific
+390,android contentprovider,tech_specific
+391,android custom view,tech_specific
+392,android drawable,tech_specific
+393,android edittext,tech_specific
+394,android emulator,tech_specific
+395,android espresso,tech_specific
+396,android fragments,tech_specific
+397,android gradle plugin,tech_specific
+398,android imageview,tech_specific
+399,android intent,tech_specific
+400,android jetpack,tech_specific
+401,android jetpack compose,tech_specific
+402,android layout,tech_specific
+403,android linearlayout,tech_specific
+404,android listview,tech_specific
+405,android livedata,tech_specific
+406,android manifest,tech_specific
+407,android mediaplayer,tech_specific
+408,android ndk,tech_specific
+409,android notifications,tech_specific
+410,android permissions,tech_specific
+411,android recyclerview,tech_specific
+412,android relativelayout,tech_specific
+413,android room,tech_specific
+414,android service,tech_specific
+415,android source,tech_specific
+416,android spinner,tech_specific
+417,android sqlite,tech_specific
+418,android studio,tech_specific
+419,android support library,tech_specific
+420,android toolbar,tech_specific
+421,android view,tech_specific
+422,android viewpager,tech_specific
+423,android volley,tech_specific
+424,android webview,tech_specific
+425,android widget,tech_specific
+426,android xml,tech_specific
+427,angular cli,tech_specific
+428,angular material,tech_specific
+429,angular material2,tech_specific
+430,angular reactive forms,tech_specific
+431,angular routing,tech_specific
+432,angular ui bootstrap,tech_specific
+433,angular ui router,tech_specific
+434,angular2 routing,tech_specific
+435,angular2 template,tech_specific
+436,angular5,tech_specific
+437,angular6,tech_specific
+438,angular7,tech_specific
+439,angular8,tech_specific
+440,angularfire2,tech_specific
+441,angularjs,tech_specific
+442,angularjs directive,tech_specific
+443,angularjs ng repeat,tech_specific
+444,angularjs scope,tech_specific
+445,animation,tech_specific
+446,annotations,tech_specific
+447,ant,tech_specific
+448,antd,tech_specific
+449,antlr,tech_specific
+450,antlr4,tech_specific
+451,anylogic,tech_specific
+452,aop,tech_specific
+453,apache,tech_specific
+454,apache beam,tech_specific
+455,apache camel,tech_specific
+456,apache flex,tech_specific
+457,apache flink,tech_specific
+458,apache kafka,tech_specific
+459,apache kafka connect,tech_specific
+460,apache kafka streams,tech_specific
+461,apache nifi,tech_specific
+462,apache pig,tech_specific
+463,apache poi,tech_specific
+464,apache spark sql,tech_specific
+465,apache zookeeper,tech_specific
+466,apache2,tech_specific
+467,apk,tech_specific
+468,apollo,tech_specific
+469,apollo client,tech_specific
+470,app config,tech_specific
+471,app store,tech_specific
+472,app store connect,tech_specific
+473,appcelerator,tech_specific
+474,append,tech_specific
+475,appium,tech_specific
+476,apple push notifications,tech_specific
+477,applescript,tech_specific
+478,applet,tech_specific
+479,apply,tech_specific
+480,architecture,tech_specific
+481,arduino,tech_specific
+482,argparse,tech_specific
+483,arguments,tech_specific
+484,arkit,tech_specific
+485,arm,tech_specific
+486,array formulas,tech_specific
+487,arraylist,tech_specific
+488,artifactory,tech_specific
+489,artificial intelligence,tech_specific
+490,ascii,tech_specific
+491,asp classic,tech_specific
+492,asp.net,tech_specific
+493,asp.net ajax,tech_specific
+494,asp.net core,tech_specific
+495,asp.net core 2.0,tech_specific
+496,asp.net core mvc,tech_specific
+497,asp.net core webapi,tech_specific
+498,asp.net identity,tech_specific
+499,asp.net membership,tech_specific
+500,asp.net mvc,tech_specific
+501,asp.net mvc 2,tech_specific
+502,asp.net mvc 3,tech_specific
+503,asp.net mvc 4,tech_specific
+504,asp.net mvc 5,tech_specific
+505,asp.net mvc routing,tech_specific
+506,asp.net web api,tech_specific
+507,asp.net web api2,tech_specific
+508,aspectj,tech_specific
+509,assembly,tech_specific
+510,asset pipeline,tech_specific
+511,assets,tech_specific
+512,associations,tech_specific
+513,associative array,tech_specific
+514,async await,tech_specific
+515,asynchronous,tech_specific
+516,atom editor,tech_specific
+517,atomic,tech_specific
+518,attachment,tech_specific
+519,attributes,tech_specific
+520,audio,tech_specific
+521,augmented reality,tech_specific
+522,aurelia,tech_specific
+523,auth0,tech_specific
+524,authentication,tech_specific
+525,authorization,tech_specific
+526,autocomplete,tech_specific
+527,autodesk forge,tech_specific
+528,autofac,tech_specific
+529,autohotkey,tech_specific
+530,autolayout,tech_specific
+531,automapper,tech_specific
+532,automated tests,tech_specific
+533,automatic ref counting,tech_specific
+534,automation,tech_specific
+535,average,tech_specific
+536,avfoundation,tech_specific
+537,avplayer,tech_specific
+538,avro,tech_specific
+539,awk,tech_specific
+540,aws amplify,tech_specific
+541,aws api gateway,tech_specific
+542,aws cdk,tech_specific
+543,aws cli,tech_specific
+544,aws cloudformation,tech_specific
+545,aws glue,tech_specific
+546,aws lambda,tech_specific
+547,aws sdk,tech_specific
+548,awt,tech_specific
+549,axios,tech_specific
+550,axis,tech_specific
+551,azure active directory,tech_specific
+552,azure ad b2c,tech_specific
+553,azure ad msal,tech_specific
+554,azure aks,tech_specific
+555,azure application insights,tech_specific
+556,azure blob storage,tech_specific
+557,azure cosmosdb,tech_specific
+558,azure data factory,tech_specific
+559,azure databricks,tech_specific
+560,azure devops,tech_specific
+561,azure functions,tech_specific
+562,azure keyvault,tech_specific
+563,azure logic apps,tech_specific
+564,azure pipelines,tech_specific
+565,azure powershell,tech_specific
+566,azure resource manager,tech_specific
+567,azure service fabric,tech_specific
+568,azure sql database,tech_specific
+569,azure storage,tech_specific
+570,azure synapse,tech_specific
+571,azure web app service,tech_specific
+572,azureservicebus,tech_specific
+573,babeljs,tech_specific
+574,backbone.js,tech_specific
+575,backend,tech_specific
+576,background,tech_specific
+577,background color,tech_specific
+578,background image,tech_specific
+579,background process,tech_specific
+580,backgroundworker,tech_specific
+581,backup,tech_specific
+582,bar chart,tech_specific
+583,barcode,tech_specific
+584,base64,tech_specific
+585,basic authentication,tech_specific
+586,batch file,tech_specific
+587,batch processing,tech_specific
+588,bazel,tech_specific
+589,bdd,tech_specific
+590,beautifulsoup,tech_specific
+591,benchmarking,tech_specific
+592,big o,tech_specific
+593,bigdata,tech_specific
+594,binary,tech_specific
+595,binary search,tech_specific
+596,binary search tree,tech_specific
+597,binary tree,tech_specific
+598,binaryfiles,tech_specific
+599,bind,tech_specific
+600,binding,tech_specific
+601,bioinformatics,tech_specific
+602,bit,tech_specific
+603,bit manipulation,tech_specific
+604,bitbucket,tech_specific
+605,bitmap,tech_specific
+606,bitwise operators,tech_specific
+607,biztalk,tech_specific
+608,blackberry,tech_specific
+609,blazor,tech_specific
+610,blazor server side,tech_specific
+611,blazor webassembly,tech_specific
+612,blender,tech_specific
+613,blob,tech_specific
+614,block,tech_specific
+615,blogger,tech_specific
+616,bluetooth,tech_specific
+617,bluetooth lowenergy,tech_specific
+618,bokeh,tech_specific
+619,boolean,tech_specific
+620,boost,tech_specific
+621,boost asio,tech_specific
+622,bootstrap 4,tech_specific
+623,bootstrap 5,tech_specific
+624,bootstrap modal,tech_specific
+625,border,tech_specific
+626,botframework,tech_specific
+627,boto3,tech_specific
+628,bots,tech_specific
+629,bouncycastle,tech_specific
+630,bower,tech_specific
+631,box2d,tech_specific
+632,boxplot,tech_specific
+633,branch,tech_specific
+634,breakpoints,tech_specific
+635,broadcastreceiver,tech_specific
+636,browser,tech_specific
+637,browser cache,tech_specific
+638,browserify,tech_specific
+639,buffer,tech_specific
+640,bufferedreader,tech_specific
+641,build,tech_specific
+642,build.gradle,tech_specific
+643,bundle,tech_specific
+644,bundler,tech_specific
+645,byte,tech_specific
+646,c preprocessor,tech_specific
+647,c# 3.0,tech_specific
+648,c# 4.0,tech_specific
+649,c++ cli,tech_specific
+650,c++11,tech_specific
+651,c++14,tech_specific
+652,c++17,tech_specific
+653,c++20,tech_specific
+654,c++builder,tech_specific
+655,caching,tech_specific
+656,cakephp,tech_specific
+657,cakephp 2.0,tech_specific
+658,cakephp 3.0,tech_specific
+659,calculator,tech_specific
+660,calendar,tech_specific
+661,call,tech_specific
+662,callback,tech_specific
+663,camera,tech_specific
+664,canvas,tech_specific
+665,capistrano,tech_specific
+666,capybara,tech_specific
+667,carousel,tech_specific
+668,carrierwave,tech_specific
+669,cart,tech_specific
+670,case,tech_specific
+671,cassandra,tech_specific
+672,casting,tech_specific
+673,categories,tech_specific
+674,cdi,tech_specific
+675,cdn,tech_specific
+676,celery,tech_specific
+677,cell,tech_specific
+678,center,tech_specific
+679,centos,tech_specific
+680,centos7,tech_specific
+681,certificate,tech_specific
+682,cgi,tech_specific
+683,chai,tech_specific
+684,char,tech_specific
+685,character,tech_specific
+686,character encoding,tech_specific
+687,chart.js,tech_specific
+688,charts,tech_specific
+689,chat,tech_specific
+690,chatbot,tech_specific
+691,checkbox,tech_specific
+692,chef infra,tech_specific
+693,chromium,tech_specific
+694,ckeditor,tech_specific
+695,clang,tech_specific
+696,classification,tech_specific
+697,classloader,tech_specific
+698,classpath,tech_specific
+699,click,tech_specific
+700,clickonce,tech_specific
+701,client,tech_specific
+702,client server,tech_specific
+703,clion,tech_specific
+704,clipboard,tech_specific
+705,clojure,tech_specific
+706,clone,tech_specific
+707,closures,tech_specific
+708,cloud,tech_specific
+709,cloud foundry,tech_specific
+710,cloudflare,tech_specific
+711,clr,tech_specific
+712,cluster analysis,tech_specific
+713,cluster computing,tech_specific
+714,cmake,tech_specific
+715,cmd,tech_specific
+716,cocoa,tech_specific
+717,cocoa touch,tech_specific
+718,cocoapods,tech_specific
+719,cocos2d iphone,tech_specific
+720,cocos2d x,tech_specific
+721,code coverage,tech_specific
+722,code generation,tech_specific
+723,codeblocks,tech_specific
+724,codeigniter,tech_specific
+725,codeigniter 2,tech_specific
+726,codeigniter 3,tech_specific
+727,codenameone,tech_specific
+728,coding style,tech_specific
+729,coffeescript,tech_specific
+730,coldfusion,tech_specific
+731,collections,tech_specific
+732,collision,tech_specific
+733,collision detection,tech_specific
+734,colors,tech_specific
+735,com,tech_specific
+736,combinations,tech_specific
+737,combobox,tech_specific
+738,command,tech_specific
+739,command line,tech_specific
+740,command line arguments,tech_specific
+741,command line interface,tech_specific
+742,command prompt,tech_specific
+743,comments,tech_specific
+744,commit,tech_specific
+745,common lisp,tech_specific
+746,common table expression,tech_specific
+747,compact framework,tech_specific
+748,compare,tech_specific
+749,comparison,tech_specific
+750,compatibility,tech_specific
+751,compilation,tech_specific
+752,compiler construction,tech_specific
+753,compiler errors,tech_specific
+754,compiler optimization,tech_specific
+755,complexity theory,tech_specific
+756,components,tech_specific
+757,composer php,tech_specific
+758,compression,tech_specific
+759,computer science,tech_specific
+760,concatenation,tech_specific
+761,concurrency,tech_specific
+762,conda,tech_specific
+763,conditional formatting,tech_specific
+764,conditional statements,tech_specific
+765,config,tech_specific
+766,configuration,tech_specific
+767,connection,tech_specific
+768,connection pooling,tech_specific
+769,connection string,tech_specific
+770,console,tech_specific
+771,console application,tech_specific
+772,constants,tech_specific
+773,constraints,tech_specific
+774,constructor,tech_specific
+775,contacts,tech_specific
+776,containers,tech_specific
+777,contains,tech_specific
+778,content management system,tech_specific
+779,content security policy,tech_specific
+780,contextmenu,tech_specific
+781,continuous integration,tech_specific
+782,controller,tech_specific
+783,controls,tech_specific
+784,conv neural network,tech_specific
+785,converters,tech_specific
+786,cookies,tech_specific
+787,coordinates,tech_specific
+788,copy,tech_specific
+789,copy paste,tech_specific
+790,cordova,tech_specific
+791,cordova plugins,tech_specific
+792,core animation,tech_specific
+793,core data,tech_specific
+794,core graphics,tech_specific
+795,core location,tech_specific
+796,coronasdk,tech_specific
+797,correlation,tech_specific
+798,cors,tech_specific
+799,couchbase,tech_specific
+800,couchdb,tech_specific
+801,count,tech_specific
+802,counter,tech_specific
+803,cpanel,tech_specific
+804,cpu,tech_specific
+805,cpu architecture,tech_specific
+806,cpu usage,tech_specific
+807,crash,tech_specific
+808,crashlytics,tech_specific
+809,create react app,tech_specific
+810,crm,tech_specific
+811,cron,tech_specific
+812,crop,tech_specific
+813,cross browser,tech_specific
+814,cross compiling,tech_specific
+815,cross domain,tech_specific
+816,cross platform,tech_specific
+817,crud,tech_specific
+818,crystal reports,tech_specific
+819,cs50,tech_specific
+820,csrf,tech_specific
+821,css animations,tech_specific
+822,css float,tech_specific
+823,css grid,tech_specific
+824,css position,tech_specific
+825,css selectors,tech_specific
+826,css transitions,tech_specific
+827,css3,tech_specific
+828,csv,tech_specific
+829,ctypes,tech_specific
+830,cucumber,tech_specific
+831,cuda,tech_specific
+832,curl,tech_specific
+833,currency,tech_specific
+834,cursor,tech_specific
+835,curve fitting,tech_specific
+836,custom controls,tech_specific
+837,custom post type,tech_specific
+838,customization,tech_specific
+839,cxf,tech_specific
+840,cygwin,tech_specific
+841,cypher,tech_specific
+842,cypress,tech_specific
+843,cython,tech_specific
+844,d3.js,tech_specific
+845,dagger 2,tech_specific
+846,dapper,tech_specific
+847,dart,tech_specific
+848,dashboard,tech_specific
+849,dask,tech_specific
+850,data annotations,tech_specific
+851,data binding,tech_specific
+852,data cleaning,tech_specific
+853,data manipulation,tech_specific
+854,data modeling,tech_specific
+855,data science,tech_specific
+856,data.table,tech_specific
+857,database,tech_specific
+858,database connection,tech_specific
+859,database design,tech_specific
+860,database migration,tech_specific
+861,database schema,tech_specific
+862,databricks,tech_specific
+863,dataframe,tech_specific
+864,datagrid,tech_specific
+865,datagridview,tech_specific
+866,dataset,tech_specific
+867,datasource,tech_specific
+868,datatable,tech_specific
+869,datatables,tech_specific
+870,datepicker,tech_specific
+871,datetime,tech_specific
+872,datetime format,tech_specific
+873,datetimepicker,tech_specific
+874,dax,tech_specific
+875,db2,tech_specific
+876,deadlock,tech_specific
+877,debian,tech_specific
+878,decimal,tech_specific
+879,declaration,tech_specific
+880,decode,tech_specific
+881,decorator,tech_specific
+882,deep linking,tech_specific
+883,default,tech_specific
+884,delay,tech_specific
+885,delegates,tech_specific
+886,delimiter,tech_specific
+887,delphi,tech_specific
+888,delphi 7,tech_specific
+889,dependencies,tech_specific
+890,dependency injection,tech_specific
+891,dependency management,tech_specific
+892,deployment,tech_specific
+893,deserialization,tech_specific
+894,design patterns,tech_specific
+895,desktop application,tech_specific
+896,destructor,tech_specific
+897,devexpress,tech_specific
+898,device,tech_specific
+899,devise,tech_specific
+900,dialog,tech_specific
+901,dialogflow es,tech_specific
+902,diff,tech_specific
+903,digital ocean,tech_specific
+904,digital signature,tech_specific
+905,directory,tech_specific
+906,directx,tech_specific
+907,discord,tech_specific
+908,discord.js,tech_specific
+909,discord.py,tech_specific
+910,display,tech_specific
+911,distance,tech_specific
+912,distinct,tech_specific
+913,distribution,tech_specific
+914,django admin,tech_specific
+915,django forms,tech_specific
+916,django models,tech_specific
+917,django orm,tech_specific
+918,django queryset,tech_specific
+919,django rest framework,tech_specific
+920,django templates,tech_specific
+921,django urls,tech_specific
+922,django views,tech_specific
+923,dll,tech_specific
+924,docker compose,tech_specific
+925,docker swarm,tech_specific
+926,dockerfile,tech_specific
+927,doctrine,tech_specific
+928,doctrine orm,tech_specific
+929,document,tech_specific
+930,documentation,tech_specific
+931,docusignapi,tech_specific
+932,docx,tech_specific
+933,dojo,tech_specific
+934,dom,tech_specific
+935,dom events,tech_specific
+936,domain driven design,tech_specific
+937,dotnet httpclient,tech_specific
+938,dotnetnuke,tech_specific
+939,double,tech_specific
+940,download,tech_specific
+941,doxygen,tech_specific
+942,dplyr,tech_specific
+943,drag and drop,tech_specific
+944,draggable,tech_specific
+945,draw,tech_specific
+946,drawable,tech_specific
+947,drawing,tech_specific
+948,driver,tech_specific
+949,drools,tech_specific
+950,drop down menu,tech_specific
+951,dropbox,tech_specific
+952,dropdown,tech_specific
+953,drupal,tech_specific
+954,drupal 6,tech_specific
+955,drupal 7,tech_specific
+956,duplicates,tech_specific
+957,dynamic,tech_specific
+958,dynamic memory allocation,tech_specific
+959,dynamic programming,tech_specific
+960,dynamics crm,tech_specific
+961,dynamics crm 2011,tech_specific
+962,e commerce,tech_specific
+963,e2e testing,tech_specific
+964,each,tech_specific
+965,echo,tech_specific
+966,eclipse,tech_specific
+967,eclipse cdt,tech_specific
+968,eclipse plugin,tech_specific
+969,eclipse rcp,tech_specific
+970,eclipselink,tech_specific
+971,ecmascript 6,tech_specific
+972,edit,tech_specific
+973,editor,tech_specific
+974,ef code first,tech_specific
+975,eigen,tech_specific
+976,ejb,tech_specific
+977,ejs,tech_specific
+978,elastic stack,tech_specific
+979,electron,tech_specific
+980,element,tech_specific
+981,elementtree,tech_specific
+982,elisp,tech_specific
+983,elixir,tech_specific
+984,eloquent,tech_specific
+985,emacs,tech_specific
+986,embed,tech_specific
+987,embedded,tech_specific
+988,embedded linux,tech_specific
+989,embeddings,tech_specific
+990,ember cli,tech_specific
+991,ember data,tech_specific
+992,ember.js,tech_specific
+993,emulation,tech_specific
+994,encode,tech_specific
+995,encoding,tech_specific
+996,encryption,tech_specific
+997,entity,tech_specific
+998,entity framework,tech_specific
+999,entity framework 4,tech_specific
+1000,entity framework 4.1,tech_specific
+1001,entity framework 5,tech_specific
+1002,entity framework 6,tech_specific
+1003,entity framework core,tech_specific
+1004,entity framework migrations,tech_specific
+1005,entity relationship,tech_specific
+1006,enums,tech_specific
+1007,environment variables,tech_specific
+1008,enzyme,tech_specific
+1009,erlang,tech_specific
+1010,error handling,tech_specific
+1011,es6 promise,tech_specific
+1012,escaping,tech_specific
+1013,eslint,tech_specific
+1014,esp32,tech_specific
+1015,ethereum,tech_specific
+1016,etl,tech_specific
+1017,eval,tech_specific
+1018,event handling,tech_specific
+1019,events,tech_specific
+1020,excel 2007,tech_specific
+1021,excel 2010,tech_specific
+1022,excel formula,tech_specific
+1023,exception,tech_specific
+1024,exchange server,tech_specific
+1025,exchangewebservices,tech_specific
+1026,exe,tech_specific
+1027,exec,tech_specific
+1028,executable,tech_specific
+1029,expandablelistview,tech_specific
+1030,expo,tech_specific
+1031,export,tech_specific
+1032,export to csv,tech_specific
+1033,export to excel,tech_specific
+1034,express,tech_specific
+1035,expression,tech_specific
+1036,extension methods,tech_specific
+1037,external,tech_specific
+1038,extjs,tech_specific
+1039,extjs4,tech_specific
+1040,extract,tech_specific
+1041,fabricjs,tech_specific
+1042,facebook,tech_specific
+1043,facebook fql,tech_specific
+1044,facebook graph api,tech_specific
+1045,facebook javascript sdk,tech_specific
+1046,facebook like,tech_specific
+1047,facebook login,tech_specific
+1048,facebook opengraph,tech_specific
+1049,facebook php sdk,tech_specific
+1050,factory,tech_specific
+1051,fancybox,tech_specific
+1052,fetch,tech_specific
+1053,fetch api,tech_specific
+1054,ffmpeg,tech_specific
+1055,fft,tech_specific
+1056,field,tech_specific
+1057,file handling,tech_specific
+1058,file io,tech_specific
+1059,file permissions,tech_specific
+1060,file upload,tech_specific
+1061,filenames,tech_specific
+1062,filepath,tech_specific
+1063,filereader,tech_specific
+1064,filesystems,tech_specific
+1065,filter,tech_specific
+1066,filtering,tech_specific
+1067,find,tech_specific
+1068,fine tuning,tech_specific
+1069,firebase,tech_specific
+1070,firebase authentication,tech_specific
+1071,firebase cloud messaging,tech_specific
+1072,firebase realtime database,tech_specific
+1073,firebase security,tech_specific
+1074,firebase storage,tech_specific
+1075,firebird,tech_specific
+1076,firefox,tech_specific
+1077,firefox addon,tech_specific
+1078,firemonkey,tech_specific
+1079,firewall,tech_specific
+1080,flash,tech_specific
+1081,flash builder,tech_specific
+1082,flask sqlalchemy,tech_specific
+1083,flex4,tech_specific
+1084,flexbox,tech_specific
+1085,flink streaming,tech_specific
+1086,floating point,tech_specific
+1087,fluent nhibernate,tech_specific
+1088,flutter dependencies,tech_specific
+1089,flutter layout,tech_specific
+1090,flutter web,tech_specific
+1091,focus,tech_specific
+1092,font awesome,tech_specific
+1093,font face,tech_specific
+1094,fonts,tech_specific
+1095,footer,tech_specific
+1096,fopen,tech_specific
+1097,foreach,tech_specific
+1098,foreign keys,tech_specific
+1099,fork,tech_specific
+1100,form submit,tech_specific
+1101,format,tech_specific
+1102,formatting,tech_specific
+1103,forms authentication,tech_specific
+1104,formula,tech_specific
+1105,fortran,tech_specific
+1106,fragment,tech_specific
+1107,frame,tech_specific
+1108,frameworks,tech_specific
+1109,freemarker,tech_specific
+1110,freeze,tech_specific
+1111,frequency,tech_specific
+1112,frontend,tech_specific
+1113,ftp,tech_specific
+1114,full text search,tech_specific
+1115,fullcalendar,tech_specific
+1116,fullscreen,tech_specific
+1117,function pointers,tech_specific
+1118,functional programming,tech_specific
+1119,future,tech_specific
+1120,fxml,tech_specific
+1121,g++,tech_specific
+1122,gallery,tech_specific
+1123,game engine,tech_specific
+1124,game physics,tech_specific
+1125,garbage collection,tech_specific
+1126,gatsby,tech_specific
+1127,gcc,tech_specific
+1128,gcloud,tech_specific
+1129,gdb,tech_specific
+1130,gdi+,tech_specific
+1131,generator,tech_specific
+1132,generics,tech_specific
+1133,geocoding,tech_specific
+1134,geojson,tech_specific
+1135,geolocation,tech_specific
+1136,geometry,tech_specific
+1137,geospatial,tech_specific
+1138,get,tech_specific
+1139,ggplot2,tech_specific
+1140,gif,tech_specific
+1141,gis,tech_specific
+1142,git bash,tech_specific
+1143,git branch,tech_specific
+1144,git merge,tech_specific
+1145,git submodules,tech_specific
+1146,github,tech_specific
+1147,github api,tech_specific
+1148,github pages,tech_specific
+1149,gitignore,tech_specific
+1150,gitlab,tech_specific
+1151,gitlab ci,tech_specific
+1152,gitlab ci runner,tech_specific
+1153,glassfish,tech_specific
+1154,glob,tech_specific
+1155,global,tech_specific
+1156,global variables,tech_specific
+1157,glsl,tech_specific
+1158,gmail,tech_specific
+1159,gmail api,tech_specific
+1160,gnu make,tech_specific
+1161,gnuplot,tech_specific
+1162,google analytics,tech_specific
+1163,google analytics api,tech_specific
+1164,google api,tech_specific
+1165,google app engine,tech_specific
+1166,google apps script,tech_specific
+1167,google bigquery,tech_specific
+1168,google calendar api,tech_specific
+1169,google chrome,tech_specific
+1170,google chrome devtools,tech_specific
+1171,google chrome extension,tech_specific
+1172,google cloud dataflow,tech_specific
+1173,google cloud datastore,tech_specific
+1174,google cloud firestore,tech_specific
+1175,google cloud functions,tech_specific
+1176,google cloud messaging,tech_specific
+1177,google cloud platform,tech_specific
+1178,google cloud pubsub,tech_specific
+1179,google cloud run,tech_specific
+1180,google cloud sql,tech_specific
+1181,google cloud storage,tech_specific
+1182,google colaboratory,tech_specific
+1183,google compute engine,tech_specific
+1184,google docs,tech_specific
+1185,google drive api,tech_specific
+1186,google forms,tech_specific
+1187,google kubernetes engine,tech_specific
+1188,google maps,tech_specific
+1189,google maps android api 2,tech_specific
+1190,google maps api 3,tech_specific
+1191,google maps markers,tech_specific
+1192,google oauth,tech_specific
+1193,google places api,tech_specific
+1194,google play,tech_specific
+1195,google play services,tech_specific
+1196,google plus,tech_specific
+1197,google sheets,tech_specific
+1198,google sheets api,tech_specific
+1199,google sheets formula,tech_specific
+1200,google signin,tech_specific
+1201,google tag manager,tech_specific
+1202,google visualization,tech_specific
+1203,googletest,tech_specific
+1204,gps,tech_specific
+1205,gpu,tech_specific
+1206,gradient,tech_specific
+1207,gradle,tech_specific
+1208,grafana,tech_specific
+1209,grails,tech_specific
+1210,grails orm,tech_specific
+1211,grammar,tech_specific
+1212,grand central dispatch,tech_specific
+1213,graph,tech_specific
+1214,graph databases,tech_specific
+1215,graph theory,tech_specific
+1216,graphics,tech_specific
+1217,graphviz,tech_specific
+1218,greatest n per group,tech_specific
+1219,gremlin,tech_specific
+1220,grep,tech_specific
+1221,grid,tech_specific
+1222,gridview,tech_specific
+1223,groovy,tech_specific
+1224,group by,tech_specific
+1225,grouping,tech_specific
+1226,grpc,tech_specific
+1227,gruntjs,tech_specific
+1228,gson,tech_specific
+1229,gstreamer,tech_specific
+1230,gtk,tech_specific
+1231,gtk3,tech_specific
+1232,guava,tech_specific
+1233,guice,tech_specific
+1234,gulp,tech_specific
+1235,gunicorn,tech_specific
+1236,gwt,tech_specific
+1237,gzip,tech_specific
+1238,hadoop yarn,tech_specific
+1239,haml,tech_specific
+1240,handlebars.js,tech_specific
+1241,handler,tech_specific
+1242,hardware,tech_specific
+1243,hash,tech_specific
+1244,hashmap,tech_specific
+1245,hashtable,tech_specific
+1246,haskell,tech_specific
+1247,hazelcast,tech_specific
+1248,hbase,tech_specific
+1249,hdfs,tech_specific
+1250,header,tech_specific
+1251,header files,tech_specific
+1252,heap memory,tech_specific
+1253,heatmap,tech_specific
+1254,height,tech_specific
+1255,here api,tech_specific
+1256,heroku,tech_specific
+1257,hex,tech_specific
+1258,hibernate,tech_specific
+1259,hibernate mapping,tech_specific
+1260,hide,tech_specific
+1261,highcharts,tech_specific
+1262,highlight,tech_specific
+1263,histogram,tech_specific
+1264,hive,tech_specific
+1265,hiveql,tech_specific
+1266,homebrew,tech_specific
+1267,hook,tech_specific
+1268,hook woocommerce,tech_specific
+1269,hosting,tech_specific
+1270,hover,tech_specific
+1271,hql,tech_specific
+1272,href,tech_specific
+1273,html agility pack,tech_specific
+1274,html email,tech_specific
+1275,html lists,tech_specific
+1276,html meta,tech_specific
+1277,html parsing,tech_specific
+1278,html select,tech_specific
+1279,html table,tech_specific
+1280,html5,tech_specific
+1281,html5 audio,tech_specific
+1282,html5 canvas,tech_specific
+1283,html5 video,tech_specific
+1284,http,tech_specific
+1285,http headers,tech_specific
+1286,http post,tech_specific
+1287,http redirect,tech_specific
+1288,http status code 404,tech_specific
+1289,httpclient,tech_specific
+1290,httprequest,tech_specific
+1291,httpresponse,tech_specific
+1292,https,tech_specific
+1293,httpurlconnection,tech_specific
+1294,httpwebrequest,tech_specific
+1295,huggingface transformers,tech_specific
+1296,hyperledger,tech_specific
+1297,hyperledger fabric,tech_specific
+1298,hyperlink,tech_specific
+1299,ibm cloud,tech_specific
+1300,ibm mobilefirst,tech_specific
+1301,ibm mq,tech_specific
+1302,icons,tech_specific
+1303,ide,tech_specific
+1304,identity,tech_specific
+1305,identityserver4,tech_specific
+1306,ienumerable,tech_specific
+1307,iframe,tech_specific
+1308,ignite,tech_specific
+1309,igraph,tech_specific
+1310,iis,tech_specific
+1311,iis 6,tech_specific
+1312,iis 7,tech_specific
+1313,iis 7.5,tech_specific
+1314,image processing,tech_specific
+1315,image uploading,tech_specific
+1316,imagemagick,tech_specific
+1317,imageview,tech_specific
+1318,imap,tech_specific
+1319,immutability,tech_specific
+1320,import,tech_specific
+1321,importerror,tech_specific
+1322,in app purchase,tech_specific
+1323,include,tech_specific
+1324,increment,tech_specific
+1325,indentation,tech_specific
+1326,indexing,tech_specific
+1327,infinite loop,tech_specific
+1328,influxdb,tech_specific
+1329,inheritance,tech_specific
+1330,initialization,tech_specific
+1331,inline,tech_specific
+1332,inner join,tech_specific
+1333,innerhtml,tech_specific
+1334,inno setup,tech_specific
+1335,innodb,tech_specific
+1336,input,tech_specific
+1337,inputstream,tech_specific
+1338,insert,tech_specific
+1339,instagram,tech_specific
+1340,instagram api,tech_specific
+1341,installation,tech_specific
+1342,instance,tech_specific
+1343,int,tech_specific
+1344,integer,tech_specific
+1345,integration,tech_specific
+1346,integration testing,tech_specific
+1347,intel,tech_specific
+1348,intellij idea,tech_specific
+1349,intellisense,tech_specific
+1350,interface,tech_specific
+1351,interface builder,tech_specific
+1352,internationalization,tech_specific
+1353,internet explorer,tech_specific
+1354,internet explorer 11,tech_specific
+1355,internet explorer 7,tech_specific
+1356,internet explorer 8,tech_specific
+1357,internet explorer 9,tech_specific
+1358,interop,tech_specific
+1359,interpolation,tech_specific
+1360,interrupt,tech_specific
+1361,intervals,tech_specific
+1362,inversion of control,tech_specific
+1363,ionic framework,tech_specific
+1364,ionic2,tech_specific
+1365,ionic3,tech_specific
+1366,ionic4,tech_specific
+1367,ios,tech_specific
+1368,ios simulator,tech_specific
+1369,ios4,tech_specific
+1370,ios5,tech_specific
+1371,ios6,tech_specific
+1372,ios7,tech_specific
+1373,ios8,tech_specific
+1374,ios9,tech_specific
+1375,ip address,tech_specific
+1376,ipad,tech_specific
+1377,ipc,tech_specific
+1378,iphone,tech_specific
+1379,ipython,tech_specific
+1380,iteration,tech_specific
+1381,iterator,tech_specific
+1382,itext,tech_specific
+1383,jackson,tech_specific
+1384,jakarta ee,tech_specific
+1385,jakarta mail,tech_specific
+1386,jar,tech_specific
+1387,jasmine,tech_specific
+1388,jasper reports,tech_specific
+1389,java 11,tech_specific
+1390,java 7,tech_specific
+1391,java 8,tech_specific
+1392,java me,tech_specific
+1393,java native interface,tech_specific
+1394,java stream,tech_specific
+1395,java.util.scanner,tech_specific
+1396,javabeans,tech_specific
+1397,javadoc,tech_specific
+1398,javafx,tech_specific
+1399,javafx 2,tech_specific
+1400,javafx 8,tech_specific
+1401,javascript objects,tech_specific
+1402,jax rs,tech_specific
+1403,jax ws,tech_specific
+1404,jaxb,tech_specific
+1405,jboss,tech_specific
+1406,jboss7.x,tech_specific
+1407,jbutton,tech_specific
+1408,jdbc,tech_specific
+1409,jekyll,tech_specific
+1410,jenkins groovy,tech_specific
+1411,jenkins pipeline,tech_specific
+1412,jenkins plugins,tech_specific
+1413,jersey,tech_specific
+1414,jestjs,tech_specific
+1415,jetty,tech_specific
+1416,jframe,tech_specific
+1417,jhipster,tech_specific
+1418,jinja2,tech_specific
+1419,jlabel,tech_specific
+1420,jmeter,tech_specific
+1421,jms,tech_specific
+1422,jndi,tech_specific
+1423,jodatime,tech_specific
+1424,join,tech_specific
+1425,joomla,tech_specific
+1426,jpa,tech_specific
+1427,jpa 2.0,tech_specific
+1428,jpanel,tech_specific
+1429,jpeg,tech_specific
+1430,jpql,tech_specific
+1431,jqgrid,tech_specific
+1432,jquery,tech_specific
+1433,jquery animate,tech_specific
+1434,jquery events,tech_specific
+1435,jquery mobile,tech_specific
+1436,jquery plugins,tech_specific
+1437,jquery select2,tech_specific
+1438,jquery selectors,tech_specific
+1439,jquery ui,tech_specific
+1440,jquery ui datepicker,tech_specific
+1441,jquery ui sortable,tech_specific
+1442,jquery validate,tech_specific
+1443,jsf,tech_specific
+1444,jsf 2,tech_specific
+1445,json,tech_specific
+1446,json.net,tech_specific
+1447,jsonp,tech_specific
+1448,jsonschema,tech_specific
+1449,jsoup,tech_specific
+1450,jsp,tech_specific
+1451,jstl,tech_specific
+1452,jsx,tech_specific
+1453,jtable,tech_specific
+1454,jtextfield,tech_specific
+1455,julia,tech_specific
+1456,junit,tech_specific
+1457,junit4,tech_specific
+1458,junit5,tech_specific
+1459,jupyter,tech_specific
+1460,jupyter notebook,tech_specific
+1461,jvm,tech_specific
+1462,jwt,tech_specific
+1463,k means,tech_specific
+1464,kafka consumer api,tech_specific
+1465,karate,tech_specific
+1466,karma jasmine,tech_specific
+1467,karma runner,tech_specific
+1468,kendo grid,tech_specific
+1469,kendo ui,tech_specific
+1470,kerberos,tech_specific
+1471,kernel,tech_specific
+1472,key,tech_specific
+1473,key value,tech_specific
+1474,keyboard,tech_specific
+1475,keyboard shortcuts,tech_specific
+1476,keycloak,tech_specific
+1477,kibana,tech_specific
+1478,kivy,tech_specific
+1479,knitr,tech_specific
+1480,knockout.js,tech_specific
+1481,kotlin coroutines,tech_specific
+1482,kubectl,tech_specific
+1483,kubernetes helm,tech_specific
+1484,kubernetes ingress,tech_specific
+1485,label,tech_specific
+1486,lambda,tech_specific
+1487,langchain,tech_specific
+1488,language agnostic,tech_specific
+1489,language lawyer,tech_specific
+1490,lapply,tech_specific
+1491,laravel,tech_specific
+1492,laravel 4,tech_specific
+1493,laravel 5,tech_specific
+1494,laravel 5.1,tech_specific
+1495,laravel 5.3,tech_specific
+1496,laravel 5.4,tech_specific
+1497,laravel 8,tech_specific
+1498,laravel blade,tech_specific
+1499,latex,tech_specific
+1500,latitude longitude,tech_specific
+1501,layout,tech_specific
+1502,layout manager,tech_specific
+1503,lazy loading,tech_specific
+1504,ldap,tech_specific
+1505,leaflet,tech_specific
+1506,left join,tech_specific
+1507,legend,tech_specific
+1508,less,tech_specific
+1509,libcurl,tech_specific
+1510,libgdx,tech_specific
+1511,libraries,tech_specific
+1512,liferay,tech_specific
+1513,limit,tech_specific
+1514,line,tech_specific
+1515,linear algebra,tech_specific
+1516,linear regression,tech_specific
+1517,linked list,tech_specific
+1518,linkedin api,tech_specific
+1519,linker,tech_specific
+1520,linker errors,tech_specific
+1521,linq,tech_specific
+1522,linq to entities,tech_specific
+1523,linq to sql,tech_specific
+1524,linq to xml,tech_specific
+1525,linux device driver,tech_specific
+1526,linux kernel,tech_specific
+1527,liquibase,tech_specific
+1528,liquid,tech_specific
+1529,lisp,tech_specific
+1530,list comprehension,tech_specific
+1531,listbox,tech_specific
+1532,listener,tech_specific
+1533,listview,tech_specific
+1534,llamaindex,tech_specific
+1535,llm,tech_specific
+1536,llmops,tech_specific
+1537,llvm,tech_specific
+1538,load,tech_specific
+1539,load testing,tech_specific
+1540,loading,tech_specific
+1541,local,tech_specific
+1542,local storage,tech_specific
+1543,locale,tech_specific
+1544,localhost,tech_specific
+1545,localization,tech_specific
+1546,location,tech_specific
+1547,locking,tech_specific
+1548,lodash,tech_specific
+1549,log4j,tech_specific
+1550,log4j2,tech_specific
+1551,log4net,tech_specific
+1552,logback,tech_specific
+1553,logging,tech_specific
+1554,logic,tech_specific
+1555,logistic regression,tech_specific
+1556,logstash,tech_specific
+1557,lookup,tech_specific
+1558,lotus notes,tech_specific
+1559,lstm,tech_specific
+1560,lua,tech_specific
+1561,lucene,tech_specific
+1562,lwjgl,tech_specific
+1563,lxml,tech_specific
+1564,macos,tech_specific
+1565,macros,tech_specific
+1566,magento,tech_specific
+1567,magento 1.7,tech_specific
+1568,magento 1.9,tech_specific
+1569,magento2,tech_specific
+1570,makefile,tech_specific
+1571,malloc,tech_specific
+1572,mamp,tech_specific
+1573,manifest,tech_specific
+1574,many to many,tech_specific
+1575,mapbox,tech_specific
+1576,mapkit,tech_specific
+1577,mapping,tech_specific
+1578,mapreduce,tech_specific
+1579,maps,tech_specific
+1580,margin,tech_specific
+1581,mariadb,tech_specific
+1582,markdown,tech_specific
+1583,marklogic,tech_specific
+1584,marshalling,tech_specific
+1585,master pages,tech_specific
+1586,match,tech_specific
+1587,material design,tech_specific
+1588,material ui,tech_specific
+1589,materialize,tech_specific
+1590,math,tech_specific
+1591,mathematical optimization,tech_specific
+1592,matlab figure,tech_specific
+1593,matplotlib,tech_specific
+1594,matrix,tech_specific
+1595,matrix multiplication,tech_specific
+1596,maui,tech_specific
+1597,maven,tech_specific
+1598,maven 2,tech_specific
+1599,maven 3,tech_specific
+1600,maven plugin,tech_specific
+1601,max,tech_specific
+1602,md5,tech_specific
+1603,mdx,tech_specific
+1604,mean,tech_specific
+1605,mean stack,tech_specific
+1606,media,tech_specific
+1607,media player,tech_specific
+1608,media queries,tech_specific
+1609,mediawiki,tech_specific
+1610,memcached,tech_specific
+1611,memory,tech_specific
+1612,memory leaks,tech_specific
+1613,memory management,tech_specific
+1614,menu,tech_specific
+1615,mercurial,tech_specific
+1616,merge,tech_specific
+1617,mern,tech_specific
+1618,message,tech_specific
+1619,message queue,tech_specific
+1620,metadata,tech_specific
+1621,metaprogramming,tech_specific
+1622,meteor,tech_specific
+1623,methods,tech_specific
+1624,mfc,tech_specific
+1625,microcontroller,tech_specific
+1626,microsoft dynamics,tech_specific
+1627,microsoft edge,tech_specific
+1628,microsoft graph api,tech_specific
+1629,microsoft metro,tech_specific
+1630,microsoft teams,tech_specific
+1631,middleware,tech_specific
+1632,migration,tech_specific
+1633,mime types,tech_specific
+1634,min,tech_specific
+1635,minecraft,tech_specific
+1636,mingw,tech_specific
+1637,mips,tech_specific
+1638,mkmapview,tech_specific
+1639,mlops,tech_specific
+1640,mobile,tech_specific
+1641,mobile safari,tech_specific
+1642,mocha.js,tech_specific
+1643,mocking,tech_specific
+1644,mockito,tech_specific
+1645,mod rewrite,tech_specific
+1646,mod wsgi,tech_specific
+1647,modal dialog,tech_specific
+1648,model view controller,tech_specific
+1649,module,tech_specific
+1650,momentjs,tech_specific
+1651,monads,tech_specific
+1652,mongodb query,tech_specific
+1653,mongoid,tech_specific
+1654,mongoose,tech_specific
+1655,mongoose schema,tech_specific
+1656,mono,tech_specific
+1657,moodle,tech_specific
+1658,moq,tech_specific
+1659,mouse,tech_specific
+1660,mouseevent,tech_specific
+1661,move,tech_specific
+1662,mp3,tech_specific
+1663,mp4,tech_specific
+1664,mpi,tech_specific
+1665,mqtt,tech_specific
+1666,ms access,tech_specific
+1667,ms access 2007,tech_specific
+1668,ms access 2010,tech_specific
+1669,ms office,tech_specific
+1670,ms word,tech_specific
+1671,msbuild,tech_specific
+1672,mstest,tech_specific
+1673,mule,tech_specific
+1674,multer,tech_specific
+1675,multi tenant,tech_specific
+1676,multidimensional array,tech_specific
+1677,multilingual,tech_specific
+1678,multipartform data,tech_specific
+1679,multiple columns,tech_specific
+1680,multiprocessing,tech_specific
+1681,multithreading,tech_specific
+1682,mutex,tech_specific
+1683,mvvm,tech_specific
+1684,mvvmcross,tech_specific
+1685,mybatis,tech_specific
+1686,mysql python,tech_specific
+1687,mysql workbench,tech_specific
+1688,mysqli,tech_specific
+1689,namespaces,tech_specific
+1690,naming conventions,tech_specific
+1691,nan,tech_specific
+1692,nasm,tech_specific
+1693,native,tech_specific
+1694,nativescript,tech_specific
+1695,navbar,tech_specific
+1696,navigation,tech_specific
+1697,navigation drawer,tech_specific
+1698,neo4j,tech_specific
+1699,nest,tech_specific
+1700,nested,tech_specific
+1701,nested lists,tech_specific
+1702,nested loops,tech_specific
+1703,nestjs,tech_specific
+1704,netbeans,tech_specific
+1705,netlogo,tech_specific
+1706,netsuite,tech_specific
+1707,netty,tech_specific
+1708,network programming,tech_specific
+1709,networkx,tech_specific
+1710,neural network,tech_specific
+1711,new operator,tech_specific
+1712,newline,tech_specific
+1713,nexus,tech_specific
+1714,nfc,tech_specific
+1715,nginx,tech_specific
+1716,ngrx,tech_specific
+1717,nhibernate,tech_specific
+1718,ninject,tech_specific
+1719,nio,tech_specific
+1720,nlog,tech_specific
+1721,nltk,tech_specific
+1722,node modules,tech_specific
+1723,nodes,tech_specific
+1724,nokogiri,tech_specific
+1725,normalization,tech_specific
+1726,nosql,tech_specific
+1727,notepad++,tech_specific
+1728,notifications,tech_specific
+1729,npm,tech_specific
+1730,npm install,tech_specific
+1731,nsarray,tech_specific
+1732,nsdate,tech_specific
+1733,nsdateformatter,tech_specific
+1734,nsdictionary,tech_specific
+1735,nsmutablearray,tech_specific
+1736,nspredicate,tech_specific
+1737,nsstring,tech_specific
+1738,nsurlconnection,tech_specific
+1739,nsuserdefaults,tech_specific
+1740,nuget,tech_specific
+1741,nuget package,tech_specific
+1742,null,tech_specific
+1743,nullpointerexception,tech_specific
+1744,number formatting,tech_specific
+1745,numbers,tech_specific
+1746,numpy ndarray,tech_specific
+1747,nunit,tech_specific
+1748,nuxt.js,tech_specific
+1749,nvidia,tech_specific
+1750,oauth,tech_specific
+1751,oauth 2.0,tech_specific
+1752,obfuscation,tech_specific
+1753,object detection,tech_specific
+1754,objective c,tech_specific
+1755,observable,tech_specific
+1756,observablecollection,tech_specific
+1757,ocaml,tech_specific
+1758,ocr,tech_specific
+1759,octave,tech_specific
+1760,odata,tech_specific
+1761,odbc,tech_specific
+1762,odoo,tech_specific
+1763,office addins,tech_specific
+1764,office interop,tech_specific
+1765,office js,tech_specific
+1766,office365,tech_specific
+1767,offset,tech_specific
+1768,okhttp,tech_specific
+1769,oledb,tech_specific
+1770,onchange,tech_specific
+1771,onclick,tech_specific
+1772,onclicklistener,tech_specific
+1773,one to many,tech_specific
+1774,onedrive,tech_specific
+1775,oop,tech_specific
+1776,open source,tech_specific
+1777,openapi,tech_specific
+1778,opencart,tech_specific
+1779,opencl,tech_specific
+1780,opengl,tech_specific
+1781,opengl es,tech_specific
+1782,opengl es 2.0,tech_specific
+1783,openid,tech_specific
+1784,openid connect,tech_specific
+1785,openlayers,tech_specific
+1786,openmp,tech_specific
+1787,openpyxl,tech_specific
+1788,openshift,tech_specific
+1789,openssl,tech_specific
+1790,openstreetmap,tech_specific
+1791,openxml,tech_specific
+1792,operating system,tech_specific
+1793,operator overloading,tech_specific
+1794,operators,tech_specific
+1795,optimization,tech_specific
+1796,option type,tech_specific
+1797,oracle apex,tech_specific
+1798,oracle database,tech_specific
+1799,oracle sqldeveloper,tech_specific
+1800,oracle10g,tech_specific
+1801,oracle11g,tech_specific
+1802,oracle12c,tech_specific
+1803,orchardcms,tech_specific
+1804,orientation,tech_specific
+1805,orm,tech_specific
+1806,osgi,tech_specific
+1807,out of memory,tech_specific
+1808,outlook,tech_specific
+1809,outlook addin,tech_specific
+1810,output,tech_specific
+1811,overflow,tech_specific
+1812,overlay,tech_specific
+1813,overloading,tech_specific
+1814,overriding,tech_specific
+1815,owin,tech_specific
+1816,p5.js,tech_specific
+1817,package,tech_specific
+1818,package.json,tech_specific
+1819,padding,tech_specific
+1820,pagination,tech_specific
+1821,pandas groupby,tech_specific
+1822,panel,tech_specific
+1823,paperclip,tech_specific
+1824,parallel processing,tech_specific
+1825,parameter passing,tech_specific
+1826,parameters,tech_specific
+1827,parent,tech_specific
+1828,parent child,tech_specific
+1829,parquet,tech_specific
+1830,parse platform,tech_specific
+1831,parsing,tech_specific
+1832,partitioning,tech_specific
+1833,pass by reference,tech_specific
+1834,passenger,tech_specific
+1835,passport.js,tech_specific
+1836,passwords,tech_specific
+1837,path,tech_specific
+1838,pattern matching,tech_specific
+1839,payment,tech_specific
+1840,payment gateway,tech_specific
+1841,paypal,tech_specific
+1842,paypal sandbox,tech_specific
+1843,pdf,tech_specific
+1844,pdf generation,tech_specific
+1845,pdfbox,tech_specific
+1846,pdo,tech_specific
+1847,pentaho,tech_specific
+1848,perforce,tech_specific
+1849,performance testing,tech_specific
+1850,perl,tech_specific
+1851,permissions,tech_specific
+1852,permutation,tech_specific
+1853,persistence,tech_specific
+1854,phantomjs,tech_specific
+1855,phoenix framework,tech_specific
+1856,phonegap plugins,tech_specific
+1857,phpexcel,tech_specific
+1858,phpmailer,tech_specific
+1859,phpmyadmin,tech_specific
+1860,phpstorm,tech_specific
+1861,phpunit,tech_specific
+1862,physics,tech_specific
+1863,pickle,tech_specific
+1864,pie chart,tech_specific
+1865,pine script,tech_specific
+1866,pinvoke,tech_specific
+1867,pip,tech_specific
+1868,pipe,tech_specific
+1869,pipeline,tech_specific
+1870,pivot,tech_specific
+1871,pivot table,tech_specific
+1872,pixel,tech_specific
+1873,playframework,tech_specific
+1874,playframework 2.0,tech_specific
+1875,playwright,tech_specific
+1876,plist,tech_specific
+1877,plot,tech_specific
+1878,plotly,tech_specific
+1879,plotly dash,tech_specific
+1880,plpgsql,tech_specific
+1881,plsql,tech_specific
+1882,plugins,tech_specific
+1883,png,tech_specific
+1884,pointers,tech_specific
+1885,polygon,tech_specific
+1886,polymer,tech_specific
+1887,polymorphism,tech_specific
+1888,pom.xml,tech_specific
+1889,popup,tech_specific
+1890,port,tech_specific
+1891,position,tech_specific
+1892,posix,tech_specific
+1893,post,tech_specific
+1894,postgis,tech_specific
+1895,powerbi,tech_specific
+1896,powerbi desktop,tech_specific
+1897,powerpoint,tech_specific
+1898,powerquery,tech_specific
+1899,powershell 2.0,tech_specific
+1900,powershell 3.0,tech_specific
+1901,precision,tech_specific
+1902,preg match,tech_specific
+1903,preg replace,tech_specific
+1904,prepared statement,tech_specific
+1905,prestashop,tech_specific
+1906,presto,tech_specific
+1907,primary key,tech_specific
+1908,primefaces,tech_specific
+1909,primeng,tech_specific
+1910,primes,tech_specific
+1911,printf,tech_specific
+1912,printing,tech_specific
+1913,prism,tech_specific
+1914,prisma,tech_specific
+1915,probability,tech_specific
+1916,process,tech_specific
+1917,processing,tech_specific
+1918,product,tech_specific
+1919,profiling,tech_specific
+1920,program entry point,tech_specific
+1921,programming languages,tech_specific
+1922,progress bar,tech_specific
+1923,progressive web apps,tech_specific
+1924,proguard,tech_specific
+1925,project,tech_specific
+1926,project reactor,tech_specific
+1927,prolog,tech_specific
+1928,prometheus,tech_specific
+1929,promise,tech_specific
+1930,properties,tech_specific
+1931,protocol buffers,tech_specific
+1932,protocols,tech_specific
+1933,prototype,tech_specific
+1934,protractor,tech_specific
+1935,proxy,tech_specific
+1936,psql,tech_specific
+1937,psycopg2,tech_specific
+1938,pthreads,tech_specific
+1939,publish,tech_specific
+1940,publish subscribe,tech_specific
+1941,pug,tech_specific
+1942,puppet,tech_specific
+1943,puppeteer,tech_specific
+1944,purrr,tech_specific
+1945,push,tech_specific
+1946,push notification,tech_specific
+1947,pycharm,tech_specific
+1948,pygame,tech_specific
+1949,pyinstaller,tech_specific
+1950,pymongo,tech_specific
+1951,pyodbc,tech_specific
+1952,pyqt,tech_specific
+1953,pyqt4,tech_specific
+1954,pyqt5,tech_specific
+1955,pyside,tech_specific
+1956,pyspark,tech_specific
+1957,pytest,tech_specific
+1958,python 2.7,tech_specific
+1959,python 2.x,tech_specific
+1960,python 3.5,tech_specific
+1961,python 3.6,tech_specific
+1962,python 3.7,tech_specific
+1963,python 3.x,tech_specific
+1964,python asyncio,tech_specific
+1965,python imaging library,tech_specific
+1966,python import,tech_specific
+1967,python itertools,tech_specific
+1968,python multiprocessing,tech_specific
+1969,python multithreading,tech_specific
+1970,python requests,tech_specific
+1971,python sphinx,tech_specific
+1972,python typing,tech_specific
+1973,python unittest,tech_specific
+1974,qml,tech_specific
+1975,qr code,tech_specific
+1976,qt creator,tech_specific
+1977,qt4,tech_specific
+1978,qt5,tech_specific
+1979,quarkus,tech_specific
+1980,quartz scheduler,tech_specific
+1981,query builder,tech_specific
+1982,query optimization,tech_specific
+1983,query string,tech_specific
+1984,queue,tech_specific
+1985,quicksort,tech_specific
+1986,r markdown,tech_specific
+1987,racket,tech_specific
+1988,radio button,tech_specific
+1989,rag,tech_specific
+1990,rails activerecord,tech_specific
+1991,rake,tech_specific
+1992,random,tech_specific
+1993,random forest,tech_specific
+1994,range,tech_specific
+1995,raphael,tech_specific
+1996,raspberry pi,tech_specific
+1997,raspberry pi3,tech_specific
+1998,raspbian,tech_specific
+1999,raster,tech_specific
+2000,razor,tech_specific
+2001,razor pages,tech_specific
+2002,rcpp,tech_specific
+2003,rdd,tech_specific
+2004,rdf,tech_specific
+2005,rdlc,tech_specific
+2006,react bootstrap,tech_specific
+2007,react context,tech_specific
+2008,react hooks,tech_specific
+2009,react native ios,tech_specific
+2010,react navigation,tech_specific
+2011,react props,tech_specific
+2012,react redux,tech_specific
+2013,react router,tech_specific
+2014,react router dom,tech_specific
+2015,react testing library,tech_specific
+2016,reactive programming,tech_specific
+2017,reactjs,tech_specific
+2018,real time,tech_specific
+2019,realm,tech_specific
+2020,recaptcha,tech_specific
+2021,record,tech_specific
+2022,recurrent neural network,tech_specific
+2023,recursion,tech_specific
+2024,redhat,tech_specific
+2025,reduce,tech_specific
+2026,redux,tech_specific
+2027,redux toolkit,tech_specific
+2028,refactoring,tech_specific
+2029,reference,tech_specific
+2030,reflection,tech_specific
+2031,refresh,tech_specific
+2032,regex,tech_specific
+2033,regex lookarounds,tech_specific
+2034,registry,tech_specific
+2035,regression,tech_specific
+2036,relational database,tech_specific
+2037,relationship,tech_specific
+2038,release,tech_specific
+2039,remote access,tech_specific
+2040,rename,tech_specific
+2041,render,tech_specific
+2042,rendering,tech_specific
+2043,repeat,tech_specific
+2044,replace,tech_specific
+2045,replication,tech_specific
+2046,report,tech_specific
+2047,reporting,tech_specific
+2048,reporting services,tech_specific
+2049,repository,tech_specific
+2050,repository pattern,tech_specific
+2051,request,tech_specific
+2052,require,tech_specific
+2053,requirejs,tech_specific
+2054,reshape,tech_specific
+2055,resharper,tech_specific
+2056,resize,tech_specific
+2057,resources,tech_specific
+2058,response,tech_specific
+2059,responsive,tech_specific
+2060,responsive design,tech_specific
+2061,rest,tech_specific
+2062,retrofit,tech_specific
+2063,retrofit2,tech_specific
+2064,return,tech_specific
+2065,return value,tech_specific
+2066,reverse,tech_specific
+2067,reverse engineering,tech_specific
+2068,reverse proxy,tech_specific
+2069,rgb,tech_specific
+2070,richfaces,tech_specific
+2071,richtextbox,tech_specific
+2072,robotframework,tech_specific
+2073,rocq prover,tech_specific
+2074,roles,tech_specific
+2075,root,tech_specific
+2076,ros,tech_specific
+2077,roslyn,tech_specific
+2078,rotation,tech_specific
+2079,rounding,tech_specific
+2080,router,tech_specific
+2081,routes,tech_specific
+2082,row,tech_specific
+2083,rows,tech_specific
+2084,rsa,tech_specific
+2085,rspec,tech_specific
+2086,rss,tech_specific
+2087,rstudio,tech_specific
+2088,ruby on rails,tech_specific
+2089,ruby on rails 3,tech_specific
+2090,ruby on rails 3.1,tech_specific
+2091,ruby on rails 3.2,tech_specific
+2092,ruby on rails 4,tech_specific
+2093,ruby on rails 5,tech_specific
+2094,rubygems,tech_specific
+2095,runtime,tech_specific
+2096,runtime error,tech_specific
+2097,rust,tech_specific
+2098,rvest,tech_specific
+2099,rvm,tech_specific
+2100,rx java,tech_specific
+2101,rx java2,tech_specific
+2102,rxjs,tech_specific
+2103,safari,tech_specific
+2104,sails.js,tech_specific
+2105,saml,tech_specific
+2106,saml 2.0,tech_specific
+2107,sapui5,tech_specific
+2108,sas,tech_specific
+2109,sass,tech_specific
+2110,save,tech_specific
+2111,sbt,tech_specific
+2112,scale,tech_specific
+2113,scanf,tech_specific
+2114,scatter plot,tech_specific
+2115,scenekit,tech_specific
+2116,scheduled tasks,tech_specific
+2117,scheduler,tech_specific
+2118,schema,tech_specific
+2119,scheme,tech_specific
+2120,scikit learn,tech_specific
+2121,scipy,tech_specific
+2122,scope,tech_specific
+2123,scrapy,tech_specific
+2124,screen,tech_specific
+2125,screen scraping,tech_specific
+2126,screenshot,tech_specific
+2127,scripting,tech_specific
+2128,scroll,tech_specific
+2129,scrollbar,tech_specific
+2130,scrollview,tech_specific
+2131,sdk,tech_specific
+2132,sdl,tech_specific
+2133,sdl 2,tech_specific
+2134,seaborn,tech_specific
+2135,security,tech_specific
+2136,sed,tech_specific
+2137,segmentation fault,tech_specific
+2138,segue,tech_specific
+2139,select,tech_specific
+2140,selection,tech_specific
+2141,selector,tech_specific
+2142,selenium chromedriver,tech_specific
+2143,selenium webdriver,tech_specific
+2144,semaphore,tech_specific
+2145,sencha touch,tech_specific
+2146,sencha touch 2,tech_specific
+2147,sendgrid,tech_specific
+2148,sendmail,tech_specific
+2149,sequelize.js,tech_specific
+2150,sequence,tech_specific
+2151,serial port,tech_specific
+2152,serialization,tech_specific
+2153,series,tech_specific
+2154,server,tech_specific
+2155,server side rendering,tech_specific
+2156,serverless,tech_specific
+2157,serverless framework,tech_specific
+2158,service,tech_specific
+2159,service worker,tech_specific
+2160,servicestack,tech_specific
+2161,servlets,tech_specific
+2162,session,tech_specific
+2163,session cookies,tech_specific
+2164,session variables,tech_specific
+2165,set,tech_specific
+2166,setinterval,tech_specific
+2167,settimeout,tech_specific
+2168,settings,tech_specific
+2169,setuptools,tech_specific
+2170,sfml,tech_specific
+2171,sftp,tech_specific
+2172,shader,tech_specific
+2173,shapes,tech_specific
+2174,share,tech_specific
+2175,shared libraries,tech_specific
+2176,shared memory,tech_specific
+2177,shared ptr,tech_specific
+2178,sharedpreferences,tech_specific
+2179,sharepoint,tech_specific
+2180,sharepoint 2007,tech_specific
+2181,sharepoint 2010,tech_specific
+2182,sharepoint 2013,tech_specific
+2183,sharepoint online,tech_specific
+2184,shell,tech_specific
+2185,shiny,tech_specific
+2186,shopify,tech_specific
+2187,signal processing,tech_specific
+2188,signalr,tech_specific
+2189,signals,tech_specific
+2190,silverlight,tech_specific
+2191,silverlight 4.0,tech_specific
+2192,simplexml,tech_specific
+2193,simulation,tech_specific
+2194,sinatra,tech_specific
+2195,single page application,tech_specific
+2196,single sign on,tech_specific
+2197,singleton,tech_specific
+2198,sitecore,tech_specific
+2199,size,tech_specific
+2200,slack,tech_specific
+2201,slack api,tech_specific
+2202,sleep,tech_specific
+2203,slf4j,tech_specific
+2204,slice,tech_specific
+2205,slider,tech_specific
+2206,slideshow,tech_specific
+2207,smartcontracts,tech_specific
+2208,smarty,tech_specific
+2209,sms,tech_specific
+2210,smtp,tech_specific
+2211,snowflake cloud data platform,tech_specific
+2212,soap,tech_specific
+2213,soapui,tech_specific
+2214,socket.io,tech_specific
+2215,sockets,tech_specific
+2216,solr,tech_specific
+2217,sonarqube,tech_specific
+2218,spacy,tech_specific
+2219,spark streaming,tech_specific
+2220,sparql,tech_specific
+2221,sparse matrix,tech_specific
+2222,spatial,tech_specific
+2223,special characters,tech_specific
+2224,speech recognition,tech_specific
+2225,spinner,tech_specific
+2226,splash screen,tech_specific
+2227,split,tech_specific
+2228,spotify,tech_specific
+2229,spreadsheet,tech_specific
+2230,spring,tech_specific
+2231,spring batch,tech_specific
+2232,spring cloud,tech_specific
+2233,spring data,tech_specific
+2234,spring data jpa,tech_specific
+2235,spring data mongodb,tech_specific
+2236,spring integration,tech_specific
+2237,spring kafka,tech_specific
+2238,spring mvc,tech_specific
+2239,spring security,tech_specific
+2240,spring security oauth2,tech_specific
+2241,spring webflux,tech_specific
+2242,sprite,tech_specific
+2243,sprite kit,tech_specific
+2244,spyder,tech_specific
+2245,sql delete,tech_specific
+2246,sql injection,tech_specific
+2247,sql insert,tech_specific
+2248,sql like,tech_specific
+2249,sql order by,tech_specific
+2250,sql server,tech_specific
+2251,sql server 2005,tech_specific
+2252,sql server 2008,tech_specific
+2253,sql server 2008 r2,tech_specific
+2254,sql server 2012,tech_specific
+2255,sql server 2014,tech_specific
+2256,sql server 2016,tech_specific
+2257,sql server ce,tech_specific
+2258,sql update,tech_specific
+2259,sqlalchemy,tech_specific
+2260,sqlite,tech_specific
+2261,sqlplus,tech_specific
+2262,ssas,tech_specific
+2263,ssh,tech_specific
+2264,ssis,tech_specific
+2265,ssl,tech_specific
+2266,ssl certificate,tech_specific
+2267,ssms,tech_specific
+2268,ssrs 2008,tech_specific
+2269,ssrs 2012,tech_specific
+2270,stack,tech_specific
+2271,stack overflow,tech_specific
+2272,standards,tech_specific
+2273,stanford nlp,tech_specific
+2274,stata,tech_specific
+2275,state,tech_specific
+2276,static,tech_specific
+2277,static libraries,tech_specific
+2278,std,tech_specific
+2279,stdin,tech_specific
+2280,stdout,tech_specific
+2281,stdvector,tech_specific
+2282,stl,tech_specific
+2283,stm32,tech_specific
+2284,storage,tech_specific
+2285,store,tech_specific
+2286,stored procedures,tech_specific
+2287,storyboard,tech_specific
+2288,stream,tech_specific
+2289,streaming,tech_specific
+2290,string formatting,tech_specific
+2291,stripe payments,tech_specific
+2292,struct,tech_specific
+2293,structure,tech_specific
+2294,struts,tech_specific
+2295,struts2,tech_specific
+2296,styled components,tech_specific
+2297,styles,tech_specific
+2298,subclass,tech_specific
+2299,subdomain,tech_specific
+2300,sublimetext,tech_specific
+2301,sublimetext2,tech_specific
+2302,sublimetext3,tech_specific
+2303,submit,tech_specific
+2304,subprocess,tech_specific
+2305,subquery,tech_specific
+2306,subset,tech_specific
+2307,substring,tech_specific
+2308,sum,tech_specific
+2309,svelte,tech_specific
+2310,sveltekit,tech_specific
+2311,svg,tech_specific
+2312,svm,tech_specific
+2313,svn,tech_specific
+2314,swagger,tech_specific
+2315,swagger ui,tech_specific
+2316,swift2,tech_specific
+2317,swift3,tech_specific
+2318,swift4,tech_specific
+2319,swift5,tech_specific
+2320,swiftui,tech_specific
+2321,swig,tech_specific
+2322,swing,tech_specific
+2323,switch statement,tech_specific
+2324,swt,tech_specific
+2325,sybase,tech_specific
+2326,symbols,tech_specific
+2327,symfony,tech_specific
+2328,symfony1,tech_specific
+2329,symfony4,tech_specific
+2330,sympy,tech_specific
+2331,synchronization,tech_specific
+2332,syntax,tech_specific
+2333,syntax error,tech_specific
+2334,syntax highlighting,tech_specific
+2335,system,tech_specific
+2336,system calls,tech_specific
+2337,system verilog,tech_specific
+2338,system.reactive,tech_specific
+2339,t sql,tech_specific
+2340,tableau api,tech_specific
+2341,tableview,tech_specific
+2342,tabs,tech_specific
+2343,tags,tech_specific
+2344,tailwind css,tech_specific
+2345,task,tech_specific
+2346,task parallel library,tech_specific
+2347,tcl,tech_specific
+2348,tcp,tech_specific
+2349,tdd,tech_specific
+2350,teamcity,tech_specific
+2351,telegram,tech_specific
+2352,telegram bot,tech_specific
+2353,telerik,tech_specific
+2354,templates,tech_specific
+2355,tensor,tech_specific
+2356,tensorflow2.0,tech_specific
+2357,teradata,tech_specific
+2358,terminal,tech_specific
+2359,terraform provider aws,tech_specific
+2360,tesseract,tech_specific
+2361,testing,tech_specific
+2362,testng,tech_specific
+2363,text files,tech_specific
+2364,text to speech,tech_specific
+2365,textarea,tech_specific
+2366,textbox,tech_specific
+2367,textfield,tech_specific
+2368,textures,tech_specific
+2369,textview,tech_specific
+2370,tfs,tech_specific
+2371,tfsbuild,tech_specific
+2372,themes,tech_specific
+2373,this,tech_specific
+2374,thread safety,tech_specific
+2375,threadpool,tech_specific
+2376,three.js,tech_specific
+2377,thumbnails,tech_specific
+2378,thymeleaf,tech_specific
+2379,tidyr,tech_specific
+2380,tidyverse,tech_specific
+2381,time complexity,tech_specific
+2382,time series,tech_specific
+2383,timeout,tech_specific
+2384,timer,tech_specific
+2385,timestamp,tech_specific
+2386,timezone,tech_specific
+2387,tinymce,tech_specific
+2388,titanium,tech_specific
+2389,tkinter,tech_specific
+2390,tls1.2,tech_specific
+2391,toggle,tech_specific
+2392,token,tech_specific
+2393,tokenize,tech_specific
+2394,tomcat,tech_specific
+2395,tomcat7,tech_specific
+2396,toolbar,tech_specific
+2397,tooltip,tech_specific
+2398,tornado,tech_specific
+2399,tortoisesvn,tech_specific
+2400,touch,tech_specific
+2401,traits,tech_specific
+2402,transactions,tech_specific
+2403,transform,tech_specific
+2404,transformation,tech_specific
+2405,transition,tech_specific
+2406,translation,tech_specific
+2407,transparency,tech_specific
+2408,transpose,tech_specific
+2409,travis ci,tech_specific
+2410,tree,tech_specific
+2411,treeview,tech_specific
+2412,triggers,tech_specific
+2413,trigonometry,tech_specific
+2414,try catch,tech_specific
+2415,tuples,tech_specific
+2416,turtle graphics,tech_specific
+2417,tweepy,tech_specific
+2418,twig,tech_specific
+2419,twilio,tech_specific
+2420,twisted,tech_specific
+2421,twitter,tech_specific
+2422,twitter bootstrap,tech_specific
+2423,twitter bootstrap 3,tech_specific
+2424,type conversion,tech_specific
+2425,typedef,tech_specific
+2426,typeerror,tech_specific
+2427,typeorm,tech_specific
+2428,types,tech_specific
+2429,typescript generics,tech_specific
+2430,typescript typings,tech_specific
+2431,typo3,tech_specific
+2432,ubuntu,tech_specific
+2433,ubuntu 14.04,tech_specific
+2434,ubuntu 16.04,tech_specific
+2435,ubuntu 18.04,tech_specific
+2436,udp,tech_specific
+2437,ui automation,tech_specific
+2438,uibutton,tech_specific
+2439,uicollectionview,tech_specific
+2440,uicollectionviewcell,tech_specific
+2441,uigesturerecognizer,tech_specific
+2442,uiimage,tech_specific
+2443,uiimagepickercontroller,tech_specific
+2444,uiimageview,tech_specific
+2445,uikit,tech_specific
+2446,uilabel,tech_specific
+2447,uinavigationbar,tech_specific
+2448,uinavigationcontroller,tech_specific
+2449,uipickerview,tech_specific
+2450,uiscrollview,tech_specific
+2451,uisearchbar,tech_specific
+2452,uistoryboard,tech_specific
+2453,uitabbarcontroller,tech_specific
+2454,uitableview,tech_specific
+2455,uitextfield,tech_specific
+2456,uitextview,tech_specific
+2457,uiview,tech_specific
+2458,uiviewcontroller,tech_specific
+2459,uiwebview,tech_specific
+2460,umbraco,tech_specific
+2461,uml,tech_specific
+2462,undefined,tech_specific
+2463,undefined behavior,tech_specific
+2464,underscore.js,tech_specific
+2465,unicode,tech_specific
+2466,union,tech_specific
+2467,unique,tech_specific
+2468,unity container,tech_specific
+2469,unity game engine,tech_specific
+2470,unix,tech_specific
+2471,updatepanel,tech_specific
+2472,updates,tech_specific
+2473,upgrade,tech_specific
+2474,upload,tech_specific
+2475,uri,tech_specific
+2476,url,tech_specific
+2477,url rewriting,tech_specific
+2478,url routing,tech_specific
+2479,urllib,tech_specific
+2480,urllib2,tech_specific
+2481,usb,tech_specific
+2482,use effect,tech_specific
+2483,use state,tech_specific
+2484,user controls,tech_specific
+2485,user defined functions,tech_specific
+2486,user input,tech_specific
+2487,user interface,tech_specific
+2488,userform,tech_specific
+2489,utf 8,tech_specific
+2490,uuid,tech_specific
+2491,uwp,tech_specific
+2492,uwp xaml,tech_specific
+2493,uwsgi,tech_specific
+2494,vaadin,tech_specific
+2495,vagrant,tech_specific
+2496,valgrind,tech_specific
+2497,variable assignment,tech_specific
+2498,variadic templates,tech_specific
+2499,vb.net,tech_specific
+2500,vb6,tech_specific
+2501,vba,tech_specific
+2502,vbscript,tech_specific
+2503,vector,tech_specific
+2504,vector database,tech_specific
+2505,vectorization,tech_specific
+2506,vercel,tech_specific
+2507,verilog,tech_specific
+2508,version,tech_specific
+2509,versioning,tech_specific
+2510,vertical alignment,tech_specific
+2511,vhdl,tech_specific
+2512,video,tech_specific
+2513,video processing,tech_specific
+2514,video streaming,tech_specific
+2515,viewmodel,tech_specific
+2516,vim,tech_specific
+2517,virtual,tech_specific
+2518,virtual machine,tech_specific
+2519,virtualbox,tech_specific
+2520,virtualenv,tech_specific
+2521,virtualhost,tech_specific
+2522,visibility,tech_specific
+2523,visual c++,tech_specific
+2524,visual studio,tech_specific
+2525,visual studio 2005,tech_specific
+2526,visual studio 2008,tech_specific
+2527,visual studio 2010,tech_specific
+2528,visual studio 2012,tech_specific
+2529,visual studio 2013,tech_specific
+2530,visual studio 2015,tech_specific
+2531,visual studio 2017,tech_specific
+2532,visual studio 2019,tech_specific
+2533,visual studio 2022,tech_specific
+2534,visualization,tech_specific
+2535,vite,tech_specific
+2536,vlookup,tech_specific
+2537,vmware,tech_specific
+2538,vpn,tech_specific
+2539,vs code,tech_specific
+2540,vscode extensions,tech_specific
+2541,vsto,tech_specific
+2542,vue component,tech_specific
+2543,vue router,tech_specific
+2544,vuejs2,tech_specific
+2545,vuejs3,tech_specific
+2546,vuetify.js,tech_specific
+2547,vuex,tech_specific
+2548,wait,tech_specific
+2549,wamp,tech_specific
+2550,war,tech_specific
+2551,warnings,tech_specific
+2552,watchkit,tech_specific
+2553,wav,tech_specific
+2554,wcf,tech_specific
+2555,wear os,tech_specific
+2556,web,tech_specific
+2557,web applications,tech_specific
+2558,web component,tech_specific
+2559,web config,tech_specific
+2560,web crawler,tech_specific
+2561,web deployment,tech_specific
+2562,web hosting,tech_specific
+2563,web scraping,tech_specific
+2564,web services,tech_specific
+2565,webassembly,tech_specific
+2566,webbrowser control,tech_specific
+2567,webclient,tech_specific
+2568,webdriver,tech_specific
+2569,webforms,tech_specific
+2570,webgl,tech_specific
+2571,webhooks,tech_specific
+2572,webkit,tech_specific
+2573,weblogic,tech_specific
+2574,webpack,tech_specific
+2575,webpack dev server,tech_specific
+2576,webrtc,tech_specific
+2577,webserver,tech_specific
+2578,websocket,tech_specific
+2579,websockets,tech_specific
+2580,websphere,tech_specific
+2581,webstorm,tech_specific
+2582,webview,tech_specific
+2583,weka,tech_specific
+2584,wget,tech_specific
+2585,whatsapp,tech_specific
+2586,where clause,tech_specific
+2587,whitespace,tech_specific
+2588,wicket,tech_specific
+2589,widget,tech_specific
+2590,width,tech_specific
+2591,wifi,tech_specific
+2592,wildcard,tech_specific
+2593,wildfly,tech_specific
+2594,win universal app,tech_specific
+2595,winapi,tech_specific
+2596,windbg,tech_specific
+2597,window,tech_specific
+2598,window functions,tech_specific
+2599,windows 10,tech_specific
+2600,windows 7,tech_specific
+2601,windows 8,tech_specific
+2602,windows 8.1,tech_specific
+2603,windows authentication,tech_specific
+2604,windows installer,tech_specific
+2605,windows mobile,tech_specific
+2606,windows phone,tech_specific
+2607,windows phone 7,tech_specific
+2608,windows phone 8,tech_specific
+2609,windows runtime,tech_specific
+2610,windows services,tech_specific
+2611,windows store apps,tech_specific
+2612,windows subsystem for linux,tech_specific
+2613,windows xp,tech_specific
+2614,winforms,tech_specific
+2615,winrt xaml,tech_specific
+2616,wireshark,tech_specific
+2617,wkwebview,tech_specific
+2618,wmi,tech_specific
+2619,wolfram mathematica,tech_specific
+2620,woocommerce,tech_specific
+2621,wordpress,tech_specific
+2622,wordpress theming,tech_specific
+2623,workflow,tech_specific
+2624,wpf,tech_specific
+2625,wpf controls,tech_specific
+2626,wrapper,tech_specific
+2627,wsdl,tech_specific
+2628,wso2,tech_specific
+2629,wso2 api manager,tech_specific
+2630,wso2 esb,tech_specific
+2631,wso2 identity server,tech_specific
+2632,wxpython,tech_specific
+2633,wxwidgets,tech_specific
+2634,x509certificate,tech_specific
+2635,x86,tech_specific
+2636,x86 64,tech_specific
+2637,xamarin,tech_specific
+2638,xamarin.android,tech_specific
+2639,xamarin.forms,tech_specific
+2640,xamarin.ios,tech_specific
+2641,xampp,tech_specific
+2642,xcode,tech_specific
+2643,xcode4,tech_specific
+2644,xcode5,tech_specific
+2645,xcode6,tech_specific
+2646,xcode7,tech_specific
+2647,xcode8,tech_specific
+2648,xdebug,tech_specific
+2649,xib,tech_specific
+2650,xml parsing,tech_specific
+2651,xml serialization,tech_specific
+2652,xmlhttprequest,tech_specific
+2653,xmpp,tech_specific
+2654,xpages,tech_specific
+2655,xpath,tech_specific
+2656,xslt 1.0,tech_specific
+2657,xss,tech_specific
+2658,xunit,tech_specific
+2659,yaml,tech_specific
+2660,yarnpkg,tech_specific
+2661,yii,tech_specific
+2662,yii2,tech_specific
+2663,youtube api,tech_specific
+2664,zooming,tech_specific

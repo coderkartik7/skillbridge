@@ -7,8 +7,8 @@ BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 sk_df = pd.read_csv(os.path.join(BASE_DIR, "../../data/processed/skills.csv"))
 oc_df = pd.read_csv(os.path.join(BASE_DIR, "../../data/processed/occupations.csv"))
 
-skills = sk_df['skill_name'].tolist()
-occ = (oc_df['title'] + ". " + oc_df['description']).tolist()
+skills = sk_df['skill_name'].dropna().astype(str).tolist()
+occ    = (oc_df['title'].fillna("") + ". " + oc_df['description'].fillna("")).tolist()
 
 model = SentenceTransformer('all-MiniLM-L6-v2')
 

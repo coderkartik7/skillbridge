@@ -3,30 +3,47 @@
 @tailwind utilities;
 
 @layer base {
+  * {
+    border-color: #F1E7CC;
+  }
+
   body {
-    font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
-  }
-  
-  h1, h2, h3, h4, h5, h6 {
-    font-family: 'Plus Jakarta Sans', 'Inter', system-ui, sans-serif;
+    background-color: #FFFDF7;
+    color: #1F1B16;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
   }
 }
 
-/* Custom scrollbars */
-::-webkit-scrollbar {
-  width: 8px;
-  height: 8px;
+/* React Flow custom styling overrides to match quiet, clean aesthetic */
+.react-flow__background {
+  background-color: #FFFDF7 !important;
 }
 
-::-webkit-scrollbar-track {
-  background: #f1f5f9;
+.react-flow__edge-path {
+  stroke: #FFA259 !important;
+  stroke-width: 2px !important;
 }
 
-::-webkit-scrollbar-thumb {
-  background: #cbd5e1;
-  border-radius: 4px;
+.react-flow__edge.animated path {
+  stroke-dasharray: 5;
+  animation: reactFlowDash 20s linear infinite;
 }
 
-::-webkit-scrollbar-thumb:hover {
-  background: #94a3b8;
+@keyframes reactFlowDash {
+  from {
+    stroke-dashoffset: 100;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+.react-flow__attribution {
+  display: none !important;
+}
+
+/* Focus ring utilities */
+:focus-visible {
+  outline: 2px solid #FFCB56;
+  outline-offset: 2px;
 }

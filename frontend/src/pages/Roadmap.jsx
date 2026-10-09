@@ -13,8 +13,10 @@ import {
   Sparkles,
   Maximize2,
   CheckCircle2,
+  BookmarkCheck,
 } from 'lucide-react';
-import { getRoadmap } from '../api/client';
+import { getRoadmap, saveUserRoadmap } from '../api/client';
+import { useAuth } from '../context/AuthContext';
 import StepNode from '../components/StepNode';
 import TopicDrawer from '../components/TopicDrawer';
 import Spinner from '../components/Spinner';
@@ -30,6 +32,7 @@ function RoadmapContent() {
   const location = useLocation();
   const navigate = useNavigate();
   const reactFlow = useReactFlow();
+  const { isAuthenticated, openAuthModal, showToast } = useAuth();
 
   // Redirect to "/" if opened without router state
   useEffect(() => {
@@ -45,6 +48,10 @@ function RoadmapContent() {
   const [roadmapData, setRoadmapData] = useState(null);
   const [isLoading, setIsLoading] = useState(true);
   const [errorMessage, setErrorMessage] = useState('');
+
+  // "Become Irreplaceable" saving states
+  const [isSaving, setIsSaving] = useState(false);
+  const [saveError, setSaveError] = useState('');
 
   // Controlled sequential reveal index
   const [revealedCount, setRevealedCount] = useState(0);
@@ -73,10 +80,8 @@ function RoadmapContent() {
       setRoadmapData(data);
 
       if (prefersReducedMotion) {
-        // Skip sequential animation if reduced motion preferred
         setRevealedCount(data.steps?.length || 0);
       } else {
-        // Start sequential reveal
         setRevealedCount(0);
       }
     } catch (err) {
@@ -101,13 +106,11 @@ function RoadmapContent() {
 
     const totalSteps = roadmapData.steps.length;
 
-    // Reset and start stepping every ~900ms
     if (revealedCount < totalSteps) {
       intervalRef.current = setTimeout(() => {
         setRevealedCount((prev) => prev + 1);
       }, 900);
     } else if (revealedCount === totalSteps && totalSteps > 0) {
-      // Ease to fitView after final card revealed
       const timeout = setTimeout(() => {
         if (reactFlow) {
           reactFlow.fitView({ padding: 0.25, duration: 800 });
@@ -181,10 +184,54 @@ function RoadmapContent() {
     }
   }, [revealedCount, reactFlow, steps, prefersReducedMotion]);
 
+  /**
+   * "Become Irreplaceable" handler:
+   * - If logged out: open auth modal, after login continue saving
+   * - Call POST /me/roadmaps with { role_code, skills }
+   * - Show toast ("Roadmap saved. Your journey starts here.")
+   * - Navigate to /dashboard/{id}
+   */
+  const handleBecomeIrreplaceable = async () => {
+    setSaveError('');
+
+    const proceedSave = async () => {
+      setIsSaving(true);
+      try {
+        const res = await saveUserRoadmap({
+          role_code: targetRole.code,
+          skills: userSkills,
+        });
+
+        showToast({
+          type: 'success',
+          message: 'Roadmap saved. Your journey starts here.',
+        });
+
+        navigate(`/dashboard/${res.id}`);
+      } catch (err) {
+        setSaveError(err.message || 'Failed to save roadmap. Please try again.');
+        showToast({
+          type: 'error',
+          message: err.message || 'Failed to save roadmap.',
+        });
+      } finally {
+        setIsSaving(false);
+      }
+    };
+
+    if (!isAuthenticated) {
+      openAuthModal(() => {
+        proceedSave();
+      }, 'signup');
+    } else {
+      await proceedSave();
+    }
+  };
+
   if (!targetRole) return null;
 
   return (
-    <div className="flex flex-col flex-1 pb-16">
+    <div className="flex flex-col flex-1 pb-24 md:pb-16">
       {/* Top Header Controls & Progress */}
       <div className="bg-surface rounded-2xl border border-surface-border p-5 md:p-6 mb-6 shadow-soft">
         <div className="flex flex-col md:flex-row md:items-center justify-between gap-6">
@@ -206,8 +253,8 @@ function RoadmapContent() {
             <h1 className="text-2xl md:text-3xl font-extrabold text-ink">{targetRole.title}</h1>
           </div>
 
-          {/* Readiness Ring & Step Count */}
-          <div className="flex items-center gap-6">
+          {/* Readiness Ring, Step Count, and Become Irreplaceable Action */}
+          <div className="flex flex-wrap items-center gap-4 sm:gap-6">
             {/* Readiness progress figure */}
             <div className="flex items-center gap-3 bg-surface-warm p-3 px-4 rounded-xl border border-surface-border shadow-soft-sm">
               <div className="relative w-12 h-12 flex items-center justify-center">
@@ -241,14 +288,43 @@ function RoadmapContent() {
               </div>
             </div>
 
-            {/* Step Counter */}
-            <div className="flex flex-col items-end">
-              <div className="text-xs font-semibold text-ink">
-                Step {Math.min(revealedCount, steps.length)} of {steps.length}
-              </div>
+            {/* Desktop "Become Irreplaceable" Primary Amber Button */}
+            <div className="hidden sm:block">
+              <button
+                type="button"
+                onClick={handleBecomeIrreplaceable}
+                disabled={isSaving || isLoading}
+                className="inline-flex items-center justify-center gap-2 px-5 py-3 rounded-xl bg-amber hover:bg-amber/90 active:scale-[0.99] text-ink font-bold text-sm shadow-soft transition-all focus:ring-2 focus:ring-amber focus:ring-offset-2 disabled:opacity-60"
+              >
+                {isSaving ? (
+                  <>
+                    <Spinner size="sm" />
+                    <span>Saving roadmap...</span>
+                  </>
+                ) : (
+                  <>
+                    <BookmarkCheck className="w-4 h-4 text-ink" />
+                    <span>Become Irreplaceable</span>
+                  </>
+                )}
+              </button>
             </div>
           </div>
         </div>
+
+        {/* Inline Save Error if present */}
+        {saveError && (
+          <div className="mt-4 p-3 rounded-xl bg-coral/15 border border-coral/30 text-xs text-ink flex items-center justify-between">
+            <span>{saveError}</span>
+            <button
+              type="button"
+              onClick={handleBecomeIrreplaceable}
+              className="font-bold underline text-ink ml-2"
+            >
+              Retry
+            </button>
+          </div>
+        )}
       </div>
 
       {/* Loading Skeleton */}
@@ -335,6 +411,28 @@ function RoadmapContent() {
         step={activeDrawerStep}
         onClose={() => setActiveDrawerStep(null)}
       />
+
+      {/* Sticky Bottom Bar on Mobile for "Become Irreplaceable" */}
+      <div className="sm:hidden fixed bottom-0 left-0 right-0 z-30 p-3 bg-surface-warm/95 backdrop-blur-md border-t border-surface-border shadow-soft-lg">
+        <button
+          type="button"
+          onClick={handleBecomeIrreplaceable}
+          disabled={isSaving || isLoading}
+          className="w-full py-3 px-4 rounded-xl bg-amber hover:bg-amber/90 active:scale-[0.99] font-bold text-sm text-ink shadow-soft flex items-center justify-center gap-2 focus:ring-2 focus:ring-amber"
+        >
+          {isSaving ? (
+            <>
+              <Spinner size="sm" />
+              <span>Saving roadmap...</span>
+            </>
+          ) : (
+            <>
+              <BookmarkCheck className="w-4 h-4" />
+              <span>Become Irreplaceable</span>
+            </>
+          )}
+        </button>
+      </div>
     </div>
   );
 }

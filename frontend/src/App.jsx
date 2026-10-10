@@ -12,6 +12,7 @@ import Dashboard from './pages/Dashboard';
 import RoadmapTracker from './pages/RoadmapTracker';
 import Jobs from './pages/Jobs';
 import News from './pages/News';
+import Recruiter from './pages/Recruiter';
 import NotFound from './pages/NotFound';
 
 export default function App() {
@@ -29,6 +30,14 @@ export default function App() {
             <Route path="/news" element={<News />} />
 
             {/* Protected Screens */}
+            <Route
+              path="/recruiter"
+              element={
+                <ProtectedRoute>
+                  <Recruiter />
+                </ProtectedRoute>
+              }
+            />
             <Route
               path="/dashboard"
               element={

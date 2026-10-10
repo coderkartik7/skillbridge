@@ -91,6 +91,21 @@ To connect to your live FastAPI backend:
    - Step 4 (Results): Large `ScoreRing` percentage ring, level badge, API summary, strong & weak topic chips, expandable detailed review with "Your answer" vs "Correct answer" indicators, and a "Review these topics" button that automatically highlights weak topics in the roadmap.
    - Accessible keyboard trap, Esc key confirmation, and radiogroup semantics.
 
+8. **Recruiter Assisted Candidate Screening** (`/recruiter`, `src/pages/Recruiter.jsx`):
+   - **Assists, never decides**: Ranks candidates based on semantic meaning, not keyword matching, with evidence lines backing every claim and zero automated rejections.
+   - **Setup View**:
+     - Large JD input with character count & inline validation (40 to 10,000 characters).
+     - Drag-and-drop resume uploader for PDF/DOCX (max 5 MB each, client-side validation, 50 resumes maximum).
+     - Pasted multi-resume support with `---` delimiter.
+     - "Load demo data" prefilling realistic senior backend JD and 6 diverse candidate resumes (including keyword-stuffed vs semantic equivalence).
+     - Stepper loading state ("Reading resumes" -> "Understanding the job description" -> "Ranking candidates") with in-memory privacy notice.
+   - **Results View**:
+     - Summary strip: Total screened count, expandable skipped file alerts, collapsible extracted JD requirements chip list.
+     - Sticky client-side filter bar: "Show top" percentile control (All, Top 5%, 10%, 25%, 50%), "Minimum experience" slider with the rule that candidates with unknown experience always stay visible, "Minimum skills" stepper, and multi-select Fit band chips (Strong, Good, Weak).
+     - Candidate cards: Large rank numeral badge, band badge with accessible icons, segmented fit meter without raw scores or pseudo-percentages, facts row, "Why this ranking" evidence accordion with quotes, and matched/missing skill chips.
+     - Expandable Developer Profile Panel: Editable handle inputs (GitHub, Codeforces, LeetCode) calling `POST /recruiter/enrich` to retrieve public stats (stars, active repos, ratings, contests, problem difficulties) with explicit neutrality notice.
+     - Pure client-side "Export shortlist" CSV button downloading starred candidate rows.
+
 ---
 
 ## 📐 Architecture & Folder Structure

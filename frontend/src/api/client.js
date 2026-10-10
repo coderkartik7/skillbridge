@@ -1335,6 +1335,481 @@ export async function submitQuiz(quiz_id, answersMap = {}) {
   }
 }
 
+// ==========================================
+// 6. RECRUITER SCREENING & ENRICHMENT
+// ==========================================
+
+export const MOCK_RECRUITER_SCREEN_RESPONSE = {
+  jd_requirements: [
+    'Design and build scalable RESTful APIs and backend microservices using Python.',
+    'Experience with relational databases (PostgreSQL/MySQL), schema design, and query optimization.',
+    'Hands-on proficiency with containerization using Docker and orchestrating services.',
+    'Cloud infrastructure deployment and monitoring on AWS (ECS, S3, RDS, CloudWatch).',
+    'Experience setting up automated CI/CD deployment pipelines (GitHub Actions, GitLab CI).',
+    'Demonstrated understanding of asynchronous task queues (Celery, Redis) and caching strategies.'
+  ],
+  jd_skills: ['aws', 'ci/cd', 'docker', 'git', 'microservices', 'postgresql', 'python', 'redis', 'rest apis'],
+  screened: 6,
+  skipped: [
+    {
+      name: 'Corrupted_Resume_Archive.zip',
+      reason: 'Only PDF and DOCX documents are accepted (unsupported file extension).'
+    }
+  ],
+  candidates: [
+    {
+      rank: 1,
+      top_percent: 17,
+      name: 'Maya_Lin_Senior_Platform_Engineer',
+      score: 0.842,
+      band: 'Strong',
+      requirements_met: 6,
+      requirements_total: 6,
+      evidence: [
+        {
+          requirement: 'Design and build scalable RESTful APIs and backend microservices using Python.',
+          evidence: 'Architected 14 Python-based core microservices handling 45M daily HTTP requests with FastAPI and gRPC.',
+          similarity: 0.884
+        },
+        {
+          requirement: 'Experience with relational databases (PostgreSQL/MySQL), schema design, and query optimization.',
+          evidence: 'Redesigned PostgreSQL relational schema and query indexing strategies, slashing p99 latency from 420ms to 65ms.',
+          similarity: 0.812
+        },
+        {
+          requirement: 'Cloud infrastructure deployment and monitoring on AWS (ECS, S3, RDS, CloudWatch).',
+          evidence: 'Managed multi-AZ AWS cloud infrastructure including ECS Fargate clusters, RDS Aurora Postgres, and Datadog monitoring.',
+          similarity: 0.795
+        }
+      ],
+      unmet: [],
+      matched_skills: ['aws', 'ci/cd', 'docker', 'git', 'microservices', 'postgresql', 'python', 'redis', 'rest apis'],
+      missing_skills: [],
+      skills_count: 14,
+      years_experience: 6.5,
+      years_source: 'dates',
+      handles: {
+        github: 'mayalin-dev',
+        codeforces: null,
+        leetcode: 'mayacodes'
+      }
+    },
+    {
+      rank: 2,
+      top_percent: 33,
+      name: 'Alex_Chen_Backend_Architect', // Strong experience in different words
+      score: 0.765,
+      band: 'Strong',
+      requirements_met: 5,
+      requirements_total: 6,
+      evidence: [
+        {
+          requirement: 'Design and build scalable RESTful APIs and backend microservices using Python.',
+          evidence: 'Authored resilient distributed web services and HTTP contracts in Python powering enterprise commerce workflows.',
+          similarity: 0.825
+        },
+        {
+          requirement: 'Demonstrated understanding of asynchronous task queues (Celery, Redis) and caching strategies.',
+          evidence: 'Implemented distributed job scheduling with in-memory key-value stores to guarantee idempotent background processing.',
+          similarity: 0.781
+        },
+        {
+          requirement: 'Hands-on proficiency with containerization using Docker and orchestrating services.',
+          evidence: 'Packaged stateless application layers into isolated container images deployed across container topologies.',
+          similarity: 0.742
+        }
+      ],
+      unmet: [
+        'Experience setting up automated CI/CD deployment pipelines (GitHub Actions, GitLab CI).'
+      ],
+      matched_skills: ['docker', 'microservices', 'postgresql', 'python', 'redis', 'rest apis'],
+      missing_skills: ['aws', 'ci/cd'],
+      skills_count: 11,
+      years_experience: 5.0,
+      years_source: 'stated',
+      handles: {
+        github: 'alexchen88',
+        codeforces: 'tourist_fan',
+        leetcode: 'alexchen'
+      }
+    },
+    {
+      rank: 3,
+      top_percent: 50,
+      name: 'Priya_Sharma_Software_Engineer',
+      score: 0.688,
+      band: 'Good',
+      requirements_met: 4,
+      requirements_total: 6,
+      evidence: [
+        {
+          requirement: 'Design and build scalable RESTful APIs and backend microservices using Python.',
+          evidence: 'Built REST API endpoints in Django and Flask connected to PostgreSQL data persistence layer.',
+          similarity: 0.768
+        },
+        {
+          requirement: 'Experience with relational databases (PostgreSQL/MySQL), schema design, and query optimization.',
+          evidence: 'Maintained PostgreSQL relational tables, applied Alembic database migrations, and wrote analytical SQL queries.',
+          similarity: 0.735
+        },
+        {
+          requirement: 'Hands-on proficiency with containerization using Docker and orchestrating services.',
+          evidence: 'Created multi-stage Dockerfiles and local docker-compose environments for development parity.',
+          similarity: 0.690
+        }
+      ],
+      unmet: [
+        'Cloud infrastructure deployment and monitoring on AWS (ECS, S3, RDS, CloudWatch).',
+        'Demonstrated understanding of asynchronous task queues (Celery, Redis) and caching strategies.'
+      ],
+      matched_skills: ['docker', 'git', 'postgresql', 'python', 'rest apis'],
+      missing_skills: ['aws', 'ci/cd', 'microservices', 'redis'],
+      skills_count: 8,
+      years_experience: 3.2,
+      years_source: 'dates',
+      handles: {
+        github: 'priyasharma-code',
+        codeforces: null,
+        leetcode: null
+      }
+    },
+    {
+      rank: 4,
+      top_percent: 67,
+      name: 'Rohan_Verma_Developer',
+      score: 0.580,
+      band: 'Good',
+      requirements_met: 3,
+      requirements_total: 6,
+      evidence: [
+        {
+          requirement: 'Design and build scalable RESTful APIs and backend microservices using Python.',
+          evidence: 'Contributed Python scripts and JSON web services for internal tooling and data parsing.',
+          similarity: 0.650
+        },
+        {
+          requirement: 'Experience setting up automated CI/CD deployment pipelines (GitHub Actions, GitLab CI).',
+          evidence: 'Configured GitHub Actions workflows to run linter checks and automated unit test suites on pull requests.',
+          similarity: 0.612
+        },
+        {
+          requirement: 'Hands-on proficiency with containerization using Docker and orchestrating services.',
+          evidence: 'Containerized Python web apps using Docker for sandbox testing.',
+          similarity: 0.595
+        }
+      ],
+      unmet: [
+        'Cloud infrastructure deployment and monitoring on AWS (ECS, S3, RDS, CloudWatch).',
+        'Experience with relational databases (PostgreSQL/MySQL), schema design, and query optimization.',
+        'Demonstrated understanding of asynchronous task queues (Celery, Redis) and caching strategies.'
+      ],
+      matched_skills: ['ci/cd', 'docker', 'git', 'python'],
+      missing_skills: ['aws', 'microservices', 'postgresql', 'redis', 'rest apis'],
+      skills_count: 6,
+      years_experience: null, // Experience unknown (tests unknown rule)
+      years_source: null,
+      handles: {
+        github: 'rohanv',
+        codeforces: 'rohan_code',
+        leetcode: null
+      }
+    },
+    {
+      rank: 5,
+      top_percent: 83,
+      name: 'Kevin_Buzzword_Dev_Keyword_Stuffed', // Keyword stuffed candidate
+      score: 0.445,
+      band: 'Weak',
+      requirements_met: 2,
+      requirements_total: 6,
+      evidence: [
+        {
+          requirement: 'Design and build scalable RESTful APIs and backend microservices using Python.',
+          evidence: 'Skills summary list: Python, REST, microservices, cloud, databases, containers, agile.',
+          similarity: 0.410
+        },
+        {
+          requirement: 'Experience with relational databases (PostgreSQL/MySQL), schema design, and query optimization.',
+          evidence: 'Used PostgreSQL in college classroom assignment.',
+          similarity: 0.380
+        }
+      ],
+      unmet: [
+        'Cloud infrastructure deployment and monitoring on AWS (ECS, S3, RDS, CloudWatch).',
+        'Experience setting up automated CI/CD deployment pipelines (GitHub Actions, GitLab CI).',
+        'Demonstrated understanding of asynchronous task queues (Celery, Redis) and caching strategies.'
+      ],
+      matched_skills: ['docker', 'postgresql', 'python', 'rest apis'],
+      missing_skills: ['aws', 'ci/cd', 'microservices', 'redis'],
+      skills_count: 18,
+      years_experience: 1.0,
+      years_source: 'stated',
+      handles: {
+        github: 'kevin-dev-99',
+        codeforces: null,
+        leetcode: 'kevin99'
+      }
+    },
+    {
+      rank: 6,
+      top_percent: 100,
+      name: 'Sam_Taylor_Junior_Engineer',
+      score: 0.310,
+      band: 'Weak',
+      requirements_met: 1,
+      requirements_total: 6,
+      evidence: [
+        {
+          requirement: 'Design and build scalable RESTful APIs and backend microservices using Python.',
+          evidence: 'Completed introductory coursework in Python programming and basic HTTP endpoints.',
+          similarity: 0.360
+        }
+      ],
+      unmet: [
+        'Experience with relational databases (PostgreSQL/MySQL), schema design, and query optimization.',
+        'Hands-on proficiency with containerization using Docker and orchestrating services.',
+        'Cloud infrastructure deployment and monitoring on AWS (ECS, S3, RDS, CloudWatch).'
+      ],
+      matched_skills: ['git', 'python'],
+      missing_skills: ['aws', 'ci/cd', 'docker', 'microservices', 'postgresql', 'redis', 'rest apis'],
+      skills_count: 4,
+      years_experience: 0.8,
+      years_source: 'dates',
+      handles: {
+        github: null,
+        codeforces: null,
+        leetcode: null
+      }
+    }
+  ]
+};
+
+export const MOCK_RECRUITER_ENRICH_RESPONSE = {
+  github: {
+    status: 'ok',
+    handle: 'mayalin-dev',
+    url: 'https://github.com/mayalin-dev',
+    repos: 28,
+    active_repos: 12,
+    top_languages: ['Python', 'Go', 'TypeScript'],
+    stars: 142,
+    skills: ['FastAPI', 'PostgreSQL', 'Docker', 'Kubernetes', 'Redis', 'AWS'],
+    top_repos: [
+      {
+        name: 'distributed-task-orchestrator',
+        stars: 84,
+        language: 'Python',
+        description: 'Lightweight distributed worker pool and queue broker with async heartbeat checks.'
+      },
+      {
+        name: 'pg-query-analyzer',
+        stars: 36,
+        language: 'Python',
+        description: 'Command line visualizer for Postgres EXPLAIN plans and index usage recommendations.'
+      },
+      {
+        name: 'fargate-iac-templates',
+        stars: 22,
+        language: 'Terraform',
+        description: 'Terraform modules for zero-downtime blue/green ECS deployments.'
+      }
+    ]
+  },
+  codeforces: {
+    status: 'ok',
+    handle: 'mayalin-dev',
+    url: 'https://codeforces.com/profile/mayalin-dev',
+    rating: 1640,
+    max_rating: 1720,
+    rank: 'expert',
+    max_rank: 'expert',
+    contests: 24
+  },
+  leetcode: {
+    status: 'ok',
+    handle: 'mayacodes',
+    url: 'https://leetcode.com/u/mayacodes',
+    solved: 480,
+    easy: 150,
+    medium: 260,
+    hard: 70,
+    contest_rating: 1890,
+    contests: 38
+  },
+  summary: 'GitHub: 12 active of 28 repos, mostly Python, Go; repo topics: FastAPI, PostgreSQL, Docker, Redis. Codeforces: expert (1640), 24 contests. LeetCode: 480 solved (150E/260M/70H), 38 contests.'
+};
+
+/**
+ * POST /recruiter/screen (multipart/form-data)
+ * Fields: jd (string), pasted (optional string), files (repeated file list)
+ * Resolves after ~1200ms in mock mode.
+ */
+export async function screenCandidates({ jd, pasted, files = [] }) {
+  if (USE_MOCK) {
+    await mockDelay(1200);
+
+    const cleanJd = (jd || '').trim();
+    if (cleanJd.length < 40) {
+      throw new Error('Paste a fuller job description (minimum 40 characters).');
+    }
+    if (cleanJd.length > 10000) {
+      throw new Error('Job description is too long (maximum 10,000 characters).');
+    }
+
+    // Dynamic mock response preserving user count if demo or custom files provided
+    const totalCount = files.length + (pasted && pasted.trim() ? pasted.split(/\n\s*-{3,}\s*\n/).filter(Boolean).length : 0);
+    const base = JSON.parse(JSON.stringify(MOCK_RECRUITER_SCREEN_RESPONSE));
+    
+    if (totalCount > 0 && totalCount !== base.screened) {
+      base.screened = Math.min(totalCount, 50);
+    }
+
+    return base;
+  }
+
+  try {
+    const formData = new FormData();
+    formData.append('jd', jd.trim());
+    if (pasted && pasted.trim()) {
+      formData.append('pasted', pasted.trim());
+    }
+    if (Array.isArray(files)) {
+      files.forEach((f) => {
+        formData.append('files', f);
+      });
+    }
+
+    const response = await api.post('/recruiter/screen', formData, {
+      headers: {
+        'Content-Type': 'multipart/form-data',
+      },
+    });
+
+    return response.data;
+  } catch (error) {
+    throw new Error(normalizeApiError(error));
+  }
+}
+
+/**
+ * POST /recruiter/enrich (JSON body: { github, codeforces, leetcode })
+ * Resolves after ~800ms in mock mode.
+ */
+export async function enrichCandidate({ github, codeforces, leetcode }) {
+  if (USE_MOCK) {
+    await mockDelay(800);
+
+    const cleanGh = (github || '').trim().replace(/^https?:\/\/github\.com\//i, '').replace(/\/$/, '');
+    const cleanCf = (codeforces || '').trim().replace(/^https?:\/\/codeforces\.com\/profile\//i, '').replace(/\/$/, '');
+    const cleanLc = (leetcode || '').trim().replace(/^https?:\/\/leetcode\.com\/(?:u\/)?/i, '').replace(/\/$/, '');
+
+    const out = {
+      github: { status: 'not_provided' },
+      codeforces: { status: 'not_provided' },
+      leetcode: { status: 'not_provided' },
+      summary: ''
+    };
+
+    if (cleanGh) {
+      if (cleanGh.toLowerCase() === 'notfound') {
+        out.github = { status: 'not_found' };
+      } else {
+        out.github = {
+          status: 'ok',
+          handle: cleanGh,
+          url: `https://github.com/${cleanGh}`,
+          repos: 28,
+          active_repos: 12,
+          top_languages: ['Python', 'Go', 'TypeScript'],
+          stars: 142,
+          skills: ['FastAPI', 'PostgreSQL', 'Docker', 'Kubernetes', 'Redis', 'AWS'],
+          top_repos: [
+            {
+              name: 'distributed-task-orchestrator',
+              stars: 84,
+              language: 'Python',
+              description: 'Lightweight distributed worker pool and queue broker with async heartbeat checks.'
+            },
+            {
+              name: 'pg-query-analyzer',
+              stars: 36,
+              language: 'Python',
+              description: 'Command line visualizer for Postgres EXPLAIN plans and index usage recommendations.'
+            },
+            {
+              name: 'fargate-iac-templates',
+              stars: 22,
+              language: 'Terraform',
+              description: 'Terraform modules for zero-downtime blue/green ECS deployments.'
+            }
+          ]
+        };
+      }
+    }
+
+    if (cleanCf) {
+      if (cleanCf.toLowerCase() === 'notfound') {
+        out.codeforces = { status: 'not_found' };
+      } else {
+        out.codeforces = {
+          status: 'ok',
+          handle: cleanCf,
+          url: `https://codeforces.com/profile/${cleanCf}`,
+          rating: 1640,
+          max_rating: 1720,
+          rank: 'expert',
+          max_rank: 'expert',
+          contests: 24
+        };
+      }
+    }
+
+    if (cleanLc) {
+      if (cleanLc.toLowerCase() === 'notfound') {
+        out.leetcode = { status: 'not_found' };
+      } else {
+        out.leetcode = {
+          status: 'ok',
+          handle: cleanLc,
+          url: `https://leetcode.com/u/${cleanLc}`,
+          solved: 480,
+          easy: 150,
+          medium: 260,
+          hard: 70,
+          contest_rating: 1890,
+          contests: 38
+        };
+      }
+    }
+
+    const summaryParts = [];
+    if (out.github.status === 'ok') {
+      summaryParts.push(`GitHub: ${out.github.active_repos} active of ${out.github.repos} repos, mostly ${out.github.top_languages.join(', ')}`);
+    }
+    if (out.codeforces.status === 'ok') {
+      summaryParts.push(`Codeforces: ${out.codeforces.rank} (${out.codeforces.rating}), ${out.codeforces.contests} contests`);
+    }
+    if (out.leetcode.status === 'ok') {
+      summaryParts.push(`LeetCode: ${out.leetcode.solved} solved (${out.leetcode.easy}E/${out.leetcode.medium}M/${out.leetcode.hard}H)`);
+    }
+
+    out.summary = summaryParts.length > 0 ? summaryParts.join('. ') + '.' : 'Public profile data fetched for candidate context.';
+    return out;
+  }
+
+  try {
+    const payload = {};
+    if (github && github.trim()) payload.github = github.trim();
+    if (codeforces && codeforces.trim()) payload.codeforces = codeforces.trim();
+    if (leetcode && leetcode.trim()) payload.leetcode = leetcode.trim();
+
+    const response = await api.post('/recruiter/enrich', payload);
+    return response.data;
+  } catch (error) {
+    throw new Error(normalizeApiError(error));
+  }
+}
+
 export default {
   USE_MOCK,
   api,
@@ -1352,5 +1827,8 @@ export default {
   getMarketNews,
   startQuiz,
   submitQuiz,
+  screenCandidates,
+  enrichCandidate,
 };
+
 

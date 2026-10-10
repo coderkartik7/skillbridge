@@ -14,6 +14,7 @@ import { analyzeResume } from '../api/client';
 import { formatBytes } from '../lib/format';
 import Spinner from '../components/Spinner';
 import ErrorAlert from '../components/ErrorAlert';
+import { useAuth } from '../context/AuthContext';
 
 const DEMO_PERSONAS = [
   {
@@ -47,6 +48,7 @@ Eager to pivot toward MLOps pipelines and scalable GPU inference cluster orchest
 
 export default function Upload() {
   const navigate = useNavigate();
+  const { isAuthenticated, openAuthModal } = useAuth();
 
   // Target audience selection
   const [selectedAudience, setSelectedAudience] = useState('pro');
@@ -200,22 +202,27 @@ export default function Upload() {
           <div className="text-xs text-ink-muted mt-1 leading-snug">Curated entry-level paths</div>
         </div>
 
-        {/* Recruiter - Disabled */}
-        <div
-          aria-disabled="true"
-          className="p-4 rounded-2xl border border-surface-border bg-surface/50 opacity-60 cursor-not-allowed text-left relative"
+        {/* Recruiter - Active */}
+        <button
+          type="button"
+          onClick={() => {
+            if (!isAuthenticated) {
+              openAuthModal(() => navigate('/recruiter'));
+            } else {
+              navigate('/recruiter');
+            }
+          }}
+          className="p-4 rounded-2xl border border-surface-border bg-surface hover:border-amber/70 hover:bg-cream/20 text-left transition-all shadow-soft-sm group focus:outline-none focus:ring-2 focus:ring-amber"
         >
           <div className="flex items-center justify-between mb-2">
-            <div className="w-8 h-8 rounded-xl bg-surface-border flex items-center justify-center">
-              <Users className="w-4 h-4 text-ink-muted" aria-hidden="true" />
+            <div className="w-8 h-8 rounded-xl bg-amber/20 group-hover:bg-amber/30 flex items-center justify-center transition-colors">
+              <Users className="w-4 h-4 text-ink" aria-hidden="true" />
             </div>
-            <span className="px-2 py-0.5 text-[10px] font-semibold rounded-full bg-cream text-ink border border-surface-border">
-              Coming soon
-            </span>
+            <span className="w-2 h-2 rounded-full bg-amber" />
           </div>
-          <div className="font-semibold text-sm text-ink-muted">Talent & Recruiter</div>
-          <div className="text-xs text-ink-muted mt-1 leading-snug">Team skill-matrix analysis</div>
-        </div>
+          <div className="font-bold text-sm text-ink">Talent & Recruiter</div>
+          <div className="text-xs text-ink-muted mt-1 leading-snug">Semantic resume screening & proof</div>
+        </button>
       </div>
 
       {/* Main Upload Card */}

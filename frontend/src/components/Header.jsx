@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
-import { RotateCcw, LogIn, LogOut, LayoutDashboard, Briefcase, Newspaper, Menu, X, User } from 'lucide-react';
+import { RotateCcw, LogIn, LogOut, LayoutDashboard, Briefcase, Newspaper, Menu, X, User, Users } from 'lucide-react';
 import { useAuth } from '../context/AuthContext';
 
 /**
  * Header Navigation Component:
  * - Brand logo & arch glyph
- * - Navigation links: Dashboard, Jobs, News (News visible even when logged out; Dashboard/Jobs open login modal when logged out)
+ * - Navigation links: Recruiter (for logged in users), Dashboard, Jobs, News (News visible even when logged out; Dashboard/Jobs/Recruiter open login modal when logged out)
  * - When logged out: "Log in" ghost button
  * - When logged in: avatar circle (first letter of email, amber) with a menu containing "Log out"
  * - Mobile responsive: collapses into a menu button with slide-down sheet
@@ -73,6 +73,21 @@ export default function Header() {
 
         {/* Desktop Nav Links */}
         <nav className="hidden md:flex items-center gap-1.5" aria-label="Main Navigation">
+          {/* Recruiter nav link visible to logged-in users */}
+          {isAuthenticated && (
+            <button
+              type="button"
+              onClick={() => handleProtectedNav('/recruiter')}
+              className={`px-3.5 py-1.5 rounded-xl text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-amber ${
+                location.pathname.startsWith('/recruiter')
+                  ? 'bg-cream text-ink border border-amber/40 shadow-soft-sm'
+                  : 'text-ink-muted hover:text-ink hover:bg-cream/40'
+              }`}
+            >
+              Recruiter
+            </button>
+          )}
+
           <button
             type="button"
             onClick={() => handleProtectedNav('/dashboard')}
@@ -165,6 +180,18 @@ export default function Header() {
                         type="button"
                         onClick={() => {
                           setIsProfileMenuOpen(false);
+                          navigate('/recruiter');
+                        }}
+                        className="w-full px-4 py-2 text-left text-xs font-semibold text-ink hover:bg-cream flex items-center gap-2"
+                      >
+                        <Users className="w-3.5 h-3.5 text-ink-muted" />
+                        <span>Recruiter Tool</span>
+                      </button>
+
+                      <button
+                        type="button"
+                        onClick={() => {
+                          setIsProfileMenuOpen(false);
                           navigate('/dashboard');
                         }}
                         className="w-full px-4 py-2 text-left text-xs font-semibold text-ink hover:bg-cream flex items-center gap-2"
@@ -227,6 +254,15 @@ export default function Header() {
       {/* Mobile Menu Slide-Down Sheet */}
       {isMobileMenuOpen && (
         <div className="md:hidden border-b border-surface-border bg-surface-warm/95 px-4 pt-3 pb-5 space-y-2.5">
+          <button
+            type="button"
+            onClick={() => handleProtectedNav('/recruiter')}
+            className="w-full flex items-center gap-2.5 px-3 py-2 rounded-xl text-sm font-semibold text-ink hover:bg-cream text-left"
+          >
+            <Users className="w-4 h-4 text-ink-muted" />
+            <span>Recruiter</span>
+          </button>
+
           <button
             type="button"
             onClick={() => handleProtectedNav('/dashboard')}

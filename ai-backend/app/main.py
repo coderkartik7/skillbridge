@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-from app.routers import extract, match, gap, live_demand, upload, analyze, roadmap, auth, me, jobs, news, quiz
+from app.routers import extract, match, gap, live_demand, upload, analyze, roadmap, auth, me, jobs, news, quiz, recruiter
 from app.db.database import init_db
 from dotenv import load_dotenv
 
@@ -33,3 +33,4 @@ app.include_router(me.router)
 app.include_router(jobs.router)
 app.include_router(news.router)
 app.include_router(quiz.router)
+app.include_router(recruiter.router)

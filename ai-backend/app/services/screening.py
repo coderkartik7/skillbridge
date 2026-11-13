@@ -1,6 +1,6 @@
 import re
-from sentence_transformers import util
-from app.services.embeddings import model
+import numpy as np
+from app.services.embeddings import encode_many, cosine_similarity
 from app.services.skill_extraction import extract_skills
 
 MAX_REQS = 25        # most JD requirements we score
@@ -67,8 +67,9 @@ def _score_candidate(name, text, reqs, req_emb, jd_skills):
         return {**base, "score": 0.0, "band": "Weak", "requirements_met": 0,
                 "requirements_total": len(reqs), "evidence": [], "unmet": reqs[:3]}
 
-    chunk_emb = model.encode(chunks, convert_to_tensor=True)
-    sims = util.cos_sim(req_emb, chunk_emb).clamp(min=0).tolist()
+    chunk_emb = encode_many(chunks, batch_size=32)
+    # Cosine similarity matrix between req_emb (n_reqs, dim) and chunk_emb (n_chunks, dim)
+    sims = np.clip(cosine_similarity(req_emb, chunk_emb), a_min=0.0, a_max=None).tolist()
     pairs = sorted(((s, r, c) for r, row in enumerate(sims) for c, s in enumerate(row)), reverse=True)
     assigned, used = {}, {}
     for s, r, c in pairs:                                   # strongest matches first
@@ -95,7 +96,7 @@ def screen(jd_text, candidates):
     reqs = split_requirements(jd_text)
     if not reqs:
         raise ValueError("Could not find any requirements in the job description.")
-    req_emb = model.encode(reqs, convert_to_tensor=True)
+    req_emb = encode_many(reqs, batch_size=32)
     jd_skills = extract_skills(jd_text)
 
     results = [_score_candidate(c["name"], c["text"], reqs, req_emb, jd_skills) for c in candidates]

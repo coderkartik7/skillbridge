@@ -1,7 +1,11 @@
 import os, sqlite3
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-DB_PATH = os.path.join(BASE_DIR, "../../data/skillbridge.db")
+DEFAULT_DB_PATH = os.path.join(BASE_DIR, "../../data/skillbridge.db")
+DB_PATH = os.getenv("DB_PATH", DEFAULT_DB_PATH)
+
+# Ensure parent directory for the SQLite database exists
+os.makedirs(os.path.dirname(os.path.abspath(DB_PATH)), exist_ok=True)
 
 SCHEMA = """
 CREATE TABLE IF NOT EXISTS users (

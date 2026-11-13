@@ -6,14 +6,40 @@ import axios from 'axios';
  */
 export const USE_MOCK = import.meta.env.VITE_USE_MOCK !== 'false';
 
-const API_BASE_URL = import.meta.env.VITE_API_URL || 'http://localhost:8000';
+const API_BASE_URL =
+  import.meta.env.VITE_API_URL ||
+  (import.meta.env.DEV ? 'http://localhost:8000' : '');
 
 const SESSION_STORAGE_KEY = 'sb_session';
 
 export const api = axios.create({
   baseURL: API_BASE_URL,
-  timeout: 30000,
+  timeout: 90000,
 });
+
+// Broadcast listeners for server waking up banner
+let wakeupListeners = new Set();
+let activeSlowRequests = 0;
+let isWakingUp = false;
+
+function updateWakeupState(wakingUp) {
+  if (isWakingUp !== wakingUp) {
+    isWakingUp = wakingUp;
+    wakeupListeners.forEach((cb) => {
+      try {
+        cb(isWakingUp);
+      } catch {
+        // ignore callback error
+      }
+    });
+  }
+}
+
+export function subscribeServerWakeup(callback) {
+  wakeupListeners.add(callback);
+  callback(isWakingUp);
+  return () => wakeupListeners.delete(callback);
+}
 
 // Broadcast listener / callback for 401 session expiration
 let unauthorizedHandler = null;
@@ -22,9 +48,17 @@ export function registerUnauthorizedHandler(callback) {
   unauthorizedHandler = callback;
 }
 
-// Request interceptor: attach Authorization header
+// Request interceptor: attach Authorization header and start 6s slow-request timer
 api.interceptors.request.use(
   (config) => {
+    config._retryCount = config._retryCount || 0;
+
+    // Start timer for slow request notice (> 6 s)
+    config._wakeupTimer = setTimeout(() => {
+      activeSlowRequests++;
+      updateWakeupState(true);
+    }, 6000);
+
     try {
       const sessionRaw = localStorage.getItem(SESSION_STORAGE_KEY);
       if (sessionRaw) {
@@ -42,10 +76,26 @@ api.interceptors.request.use(
   (error) => Promise.reject(error)
 );
 
-// Response interceptor: handle 401 session expiration
+// Response interceptor: handle 401 session expiration, slow banners, and auto-retry
 api.interceptors.response.use(
-  (response) => response,
-  (error) => {
+  (response) => {
+    if (response.config?._wakeupTimer) {
+      clearTimeout(response.config._wakeupTimer);
+    }
+    if (activeSlowRequests > 0) {
+      activeSlowRequests = Math.max(0, activeSlowRequests - 1);
+    }
+    if (activeSlowRequests === 0) {
+      updateWakeupState(false);
+    }
+    return response;
+  },
+  async (error) => {
+    const config = error.config;
+    if (config?._wakeupTimer) {
+      clearTimeout(config._wakeupTimer);
+    }
+
     if (error?.response?.status === 401) {
       try {
         localStorage.removeItem(SESSION_STORAGE_KEY);
@@ -56,9 +106,43 @@ api.interceptors.response.use(
         unauthorizedHandler();
       }
     }
+
+    const isNetworkError = !error?.response || error.code === 'ERR_NETWORK' || error.code === 'ECONNABORTED';
+    const is502or503 = error?.response?.status === 502 || error?.response?.status === 503;
+
+    if (config) {
+      const method = (config.method || 'get').toLowerCase();
+      // Only auto-retry idempotent GETs and /health (never POSTs that create data or call Gemini)
+      const isIdempotent = method === 'get' || config.url?.includes('/health');
+      const canRetry = isIdempotent && (config._retryCount || 0) < 2 && (isNetworkError || is502or503);
+
+      if (canRetry) {
+        config._retryCount = (config._retryCount || 0) + 1;
+        updateWakeupState(true);
+        // Retry backoff delay (2s for first retry, 4s for second)
+        const delayMs = config._retryCount * 2000;
+        await new Promise((resolve) => setTimeout(resolve, delayMs));
+        return api(config);
+      }
+    }
+
+    if (activeSlowRequests > 0) {
+      activeSlowRequests = Math.max(0, activeSlowRequests - 1);
+    }
+    if (activeSlowRequests === 0) {
+      updateWakeupState(false);
+    }
+
     return Promise.reject(error);
   }
 );
+
+// Silent warm-up ping to wake up free-tier backend instance on application load
+if (typeof window !== 'undefined' && !USE_MOCK && API_BASE_URL) {
+  api.get('/health').catch(() => {
+    // Silently ignore warmup failure on boot
+  });
+}
 
 /**
  * Normalizes Axios errors or API 4xx/5xx responses into a single friendly message string.
@@ -1660,8 +1744,9 @@ export async function screenCandidates({ jd, pasted, files = [] }) {
     const totalCount = files.length + (pasted && pasted.trim() ? pasted.split(/\n\s*-{3,}\s*\n/).filter(Boolean).length : 0);
     const base = JSON.parse(JSON.stringify(MOCK_RECRUITER_SCREEN_RESPONSE));
     
+    const maxScreenCandidates = Number(import.meta.env.VITE_MAX_CANDIDATES) || 50;
     if (totalCount > 0 && totalCount !== base.screened) {
-      base.screened = Math.min(totalCount, 50);
+      base.screened = Math.min(totalCount, maxScreenCandidates);
     }
 
     return base;

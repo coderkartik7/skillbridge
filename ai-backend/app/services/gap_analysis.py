@@ -4,7 +4,11 @@ import pandas as pd
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 TECH_TYPES = {"tech_specific", "software"}
 
-occ_sk = pd.read_csv(os.path.join(BASE_DIR, "../../data/processed/occupation_skills.csv"))
+occ_sk = pd.read_csv(
+    os.path.join(BASE_DIR, "../../data/processed/occupation_skills.csv"),
+    usecols=["occupation_code", "skill_id", "skill_name", "skill_type", "relevance", "is_trending"],
+)
+occ_sk["relevance"] = occ_sk["relevance"].astype("float32")
 occ_sk = occ_sk[occ_sk["skill_type"].isin(TECH_TYPES)]
 occ_sk = occ_sk.sort_values("relevance", ascending=False)
 occ_sk = occ_sk.drop_duplicates(subset=["occupation_code", "skill_name"])

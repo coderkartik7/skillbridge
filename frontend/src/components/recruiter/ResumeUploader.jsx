@@ -3,7 +3,7 @@ import { Upload as UploadIcon, FileText, X, AlertCircle } from 'lucide-react';
 import { formatBytes } from '../../lib/format';
 
 const MAX_FILE_SIZE_BYTES = 5 * 1024 * 1024; // 5 MB
-const MAX_TOTAL_CANDIDATES = 50;
+const MAX_TOTAL_CANDIDATES = Number(import.meta.env.VITE_MAX_CANDIDATES) || 50;
 
 /**
  * ResumeUploader component:
@@ -158,7 +158,7 @@ export default function ResumeUploader({
           Drag & drop resumes here, or <span className="underline decoration-amber underline-offset-2">browse</span>
         </p>
         <p className="text-[11px] text-ink-muted mt-0.5">
-          PDF or DOCX (max 5 MB each, up to 50 resumes)
+          PDF or DOCX (max 5 MB each, up to {MAX_TOTAL_CANDIDATES} resumes)
         </p>
       </div>
 

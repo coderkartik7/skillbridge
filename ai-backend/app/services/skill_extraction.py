@@ -12,7 +12,10 @@ ALLOWED_TYPES = {"tech_specific", "software"}          # Layer 3: tech only
 NOISE = {"science", "leadership", "speaking", "writing", "learning", "management",
          "mathematics", "judgment", "coordination", "negotiation", "persuasion"}
 
-skills_df = pd.read_csv(os.path.join(PROC, "skills.csv"))
+skills_df = pd.read_csv(
+    os.path.join(PROC, "skills.csv"),
+    usecols=["skill_name", "skill_type"],
+)
 skills_df = skills_df[skills_df["skill_type"].isin(ALLOWED_TYPES)]
 skills_df = skills_df.dropna(subset=["skill_name"])
 
@@ -21,7 +24,7 @@ canon = {s.lower(): s.lower() for s in skills_df["skill_name"]}
 
 alias_path = os.path.join(PROC, "aliases.csv")           # Layer 2: aliases
 if os.path.exists(alias_path):
-    al = pd.read_csv(alias_path)
+    al = pd.read_csv(alias_path, usecols=["alias", "canonical"])
     al = al.dropna(subset=["alias", "canonical"]) 
     canon.update({a.lower(): c.lower() for a, c in zip(al["alias"], al["canonical"])})
 

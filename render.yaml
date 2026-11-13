@@ -1,0 +1,55 @@
+services:
+  # SkillBridge FastAPI Backend ML Service
+  - type: web
+    name: skillbridge-api
+    runtime: python
+    plan: free
+    rootDir: ai-backend
+    buildCommand: pip install --no-cache-dir -r requirements.txt && python scripts/download_model.py
+    startCommand: uvicorn app.main:app --host 0.0.0.0 --port $PORT
+    healthCheckPath: /health
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11.9
+      - key: MAX_CANDIDATES
+        value: "10"
+      - key: ADZUNA_COUNTRY
+        value: in
+      - key: LEETCODE_ENABLED
+        value: "0"
+      - key: OMP_NUM_THREADS
+        value: "1"
+      - key: JWT_SECRET
+        generateValue: true
+      - key: GEMINI_API_KEY
+        sync: false
+      - key: ADZUNA_APP_ID
+        sync: false
+      - key: ADZUNA_APP_KEY
+        sync: false
+      - key: GITHUB_TOKEN
+        sync: false
+      - key: DEMO_PASSWORD
+        sync: false
+      - key: CORS_ORIGINS
+        sync: false
+
+  # SkillBridge React + Vite Frontend
+  - type: web
+    name: skillbridge-web
+    runtime: static
+    rootDir: frontend
+    buildCommand: npm ci && npm run build
+    staticPublishPath: dist
+    routes:
+      - type: rewrite
+        source: /*
+        destination: /index.html
+    envVars:
+      - key: VITE_USE_MOCK
+        value: "false"
+      - key: VITE_MAX_CANDIDATES
+        value: "10"
+      - key: VITE_API_URL
+        sync: false
+

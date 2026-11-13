@@ -3,12 +3,16 @@ import os
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))    
 
-courses = pd.read_csv(os.path.join(BASE_DIR, "../../data/processed/courses.csv"))
+courses = pd.read_csv(
+    os.path.join(BASE_DIR, "../../data/processed/courses.csv"),
+    usecols=["skill_id", "skill_name", "course_name", "course_url"],
+)
+
 
 def recommend_corses(missing_skills):
     missing_skills_id = []
     for skill in missing_skills:
-        missing_skills_id.append(skill['skill_id'])
+        missing_skills_id.append(skill["skill_id"])
     
-    course = courses[courses['skill_id'].isin(missing_skills_id)]
+    course = courses[courses["skill_id"].isin(missing_skills_id)]
     return course

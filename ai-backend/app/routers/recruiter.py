@@ -10,7 +10,7 @@ from app.services.profiles import enrich, find_handles
 
 router = APIRouter(prefix="/recruiter", tags=["recruiter"])
 
-MAX_CANDIDATES = 50
+MAX_CANDIDATES = int(os.getenv("MAX_CANDIDATES", "50"))
 MAX_FILE = 5 * 1024 * 1024
 MAX_JD = 10_000
 MAX_RESUME_CHARS = 20_000

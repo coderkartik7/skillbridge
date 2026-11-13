@@ -1,11 +1,12 @@
 import json, os
-from sentence_transformers import util
-from app.services.embeddings import encode_text, occ_embeddings, oc_df
+import numpy as np
+from app.services.embeddings import encode_text, occ_embeddings, oc_df, cosine_similarity
 from app.services.gap_analysis import occ_sk, readiness
 
 ROLE_SKILLS = {c: dict(zip(g["skill_name"], g["relevance"])) for c, g in occ_sk.groupby("occupation_code")}
 code_to_idx = {c: i for i, c in enumerate(oc_df["occupation_code"])}
 ladder_idx = [code_to_idx[c] for c in ROLE_SKILLS if c in code_to_idx]
+
 
 def _role(idx):
     row = oc_df.iloc[idx]
@@ -14,9 +15,10 @@ def _role(idx):
 
 def detect_current_role(text):
     emb = encode_text(text)
-    scores = util.cos_sim(emb, occ_embeddings[ladder_idx])[0]
-    best = int(scores.argmax())
+    scores = cosine_similarity(emb, occ_embeddings[ladder_idx])
+    best = int(np.argmax(scores))
     return _role(ladder_idx[best])
+
 
 def get_options(current_code, user_skills, k=4):
     cur_size = len(ROLE_SKILLS.get(current_code, {}))
